@@ -1,0 +1,342 @@
+{
+  "dataset_name": "PDF-Accessibility-Benchmark",
+  "version": "1.0.0",
+  "description": "A comprehensive benchmark dataset for evaluating PDF accessibility containing 125 expertly-annotated PDF documents with 7 accessibility criteria aligned to WCAG 2.2 and PDF/UA standards. This dataset provides the first publicly available resource for systematic evaluation of automated and LLM-based PDF accessibility assessment approaches.",
+  
+  "paper_reference": {
+    "title": "Benchmarking PDF Accessibility Evaluation: A Dataset and Framework for Assessing Automated and LLM-Based Approaches for Accessibility Testing",
+    "authors": [
+      {
+        "name": "Anukriti Kumar",
+        "affiliation": "University of Washington Information School",
+        "email": "anukriti@uw.edu"
+      },
+      {
+        "name": "Tanushree Padath", 
+        "affiliation": "University of Washington Information School"
+      },
+      {
+        "name": "Lucy Lu Wang",
+        "affiliation": "University of Washington Information School",
+        "email": "lucyw@uw.edu"
+      }
+    ],
+    "venue": "ASSETS '25 - The 27th International ACM SIGACCESS Conference on Computers and Accessibility",
+    "year": 2025,
+    "note": "Conference scheduled for October 26-29, 2025 in Denver, Colorado"
+  },
+
+  "dataset_overview": {
+    "total_documents": 125,
+    "base_documents": 35,
+    "accessibility_criteria": 7,
+    "evaluation_categories": 4
+  },
+
+  "accessibility_criteria": {
+    "alt_text_quality": {
+      "description": "Evaluation of alternative text quality for images, figures, and non-text elements",
+      "sub_criteria": [
+        "Presence of alternative text",
+        "Descriptive accuracy of alt text",
+        "Contextual relevance",
+        "Brevity and clarity",
+        "Decorative image handling"
+      ],
+      "input_data_types": ["page_images", "image_metadata", "extracted_text", "tag_structure"],
+      "wcag_alignment": ["1.1.1 Non-text Content"]
+    },
+    "color_contrast": {
+      "description": "Assessment of color contrast ratios for text and background combinations",
+      "sub_criteria": [
+        "Normal text contrast ratio (4.5:1)",
+        "Large text contrast ratio (3:1)", 
+        "Graphical elements contrast",
+        "Interactive elements contrast",
+        "Color-only information identification"
+      ],
+      "input_data_types": ["color_palette_data", "contrast_ratios", "visual_elements"],
+      "wcag_alignment": ["1.4.3 Contrast (Minimum)", "1.4.6 Contrast (Enhanced)"]
+    },
+    "fonts_readability": {
+      "description": "Evaluation of font accessibility including size, style, and readability",
+      "sub_criteria": [
+        "Font size adequacy",
+        "Font family accessibility",
+        "Text spacing compliance",
+        "Scalability without loss of functionality",
+        "Reading flow optimization"
+      ],
+      "input_data_types": ["font_metadata", "text_rendering_samples", "spacing_measurements"],
+      "wcag_alignment": ["1.4.4 Resize text", "1.4.8 Visual Presentation"]
+    },
+    "functional_hyperlinks": {
+      "description": "Assessment of hyperlink functionality and accessibility",
+      "sub_criteria": [
+        "Link text descriptiveness",
+        "Link destination clarity",
+        "Keyboard accessibility",
+        "Screen reader compatibility",
+        "Link purpose identification"
+      ],
+      "input_data_types": ["link_extraction", "destination_validation", "keyboard_navigation"],
+      "wcag_alignment": ["2.4.4 Link Purpose (In Context)", "2.4.9 Link Purpose (Link Only)"]
+    },
+    "logical_reading_order": {
+      "description": "Evaluation of document structure and logical reading sequence",
+      "sub_criteria": [
+        "Heading hierarchy correctness",
+        "Reading order consistency",
+        "Content flow logic",
+        "Navigation structure",
+        "Semantic markup presence"
+      ],
+      "input_data_types": ["document_structure_tags", "reading_flow_analysis", "heading_hierarchy"],
+      "wcag_alignment": ["1.3.1 Info and Relationships", "1.3.2 Meaningful Sequence"]
+    },
+    "semantic_tagging": {
+      "description": "Assessment of proper semantic markup and document structure",
+      "sub_criteria": [
+        "Heading tag usage",
+        "List structure markup",
+        "Table semantic structure",
+        "Language specification",
+        "Document title and metadata"
+      ],
+      "input_data_types": ["html_pdf_tags", "semantic_markup", "metadata_extraction"],
+      "wcag_alignment": ["1.3.1 Info and Relationships", "3.1.1 Language of Page"]
+    },
+    "table_structure": {
+      "description": "Evaluation of table accessibility including headers, captions, and structure",
+      "sub_criteria": [
+        "Table header identification",
+        "Caption and summary presence",
+        "Cell relationship clarity",
+        "Complex table navigation",
+        "Data table vs layout table distinction"
+      ],
+      "input_data_types": ["table_markup", "cell_relationships", "header_associations"],
+      "wcag_alignment": ["1.3.1 Info and Relationships", "1.3.2 Meaningful Sequence"]
+    }
+  },
+
+  "evaluation_framework": {
+    "categories": {
+      "passed": {
+        "description": "Document fully meets the accessibility criterion with no violations",
+        "scoring": 1.0,
+        "criteria": "Complete compliance with WCAG 2.2 and PDF/UA standards"
+      },
+      "failed": {
+        "description": "Document fails to meet the accessibility criterion with clear violations",
+        "scoring": 0.0,
+        "criteria": "Clear non-compliance with accessibility standards"
+      },
+      "not_present": {
+        "description": "The accessibility criterion is not applicable to this document",
+        "scoring": null,
+        "criteria": "Element or feature required for criterion evaluation is absent"
+      },
+      "cannot_tell": {
+        "description": "Insufficient information to determine compliance status",
+        "scoring": null,
+        "criteria": "Ambiguous or unclear accessibility status requiring manual review"
+      }
+    },
+    "validation_approach": "Expert-validated annotations with multi-reviewer consensus"
+  },
+
+  "academic_context": {
+    "base_documents": {
+      "count": 35,
+      "publication_period": "2014-2023",
+      "selection_criteria": "High citation counts from OpenAlex metadata",
+      "academic_fields": {
+        "computer_science": "Machine learning, HCI, software engineering papers",
+        "medicine": "Clinical research, medical imaging, healthcare informatics",
+        "sociology": "Social science research, demographic studies, policy analysis",
+        "environmental_science": "Climate research, sustainability studies, environmental policy",
+        "physics": "Theoretical physics, experimental studies, mathematical physics",
+        "biology": "Molecular biology, genetics, ecological studies",
+        "history": "Historical analysis, archival research, cultural studies"
+      }
+    },
+    "openalex_integration": {
+      "metadata_source": "OpenAlex scholarly database",
+      "fields_covered": "19 top-level academic domains",
+      "subfields": 766,
+      "citation_filtering": "High-impact papers selected by citation metrics",
+      "access_types": "Mix of open-access and subscription-based papers"
+    }
+  },
+
+  "directory_structure": {
+    "root": "PDF-Accessibility-Benchmark/",
+    "main_directories": {
+      "data": {
+        "processed": {
+          "description": "Processed accessibility analysis results",
+          "subdirectories": {
+            "alt_text_quality": {
+              "passed": "Documents meeting alt text standards",
+              "failed": "Documents failing alt text requirements", 
+              "not_present": "Documents without relevant images",
+              "cannot_tell": "Raw Documents"
+            },
+            "color_contrast": {
+              "passed": "Documents meeting contrast standards",
+              "failed": "Documents failing contrast requirements",
+              "cannot_tell": "Raw Documents"
+            },
+            "fonts_readability": {
+              "passed": "Documents with accessible fonts",
+              "failed": "Documents with readability issues",
+              "cannot_tell": "Raw Documents"
+            },
+            "functional_hyperlinks": {
+              "passed": "Documents with accessible links",
+              "failed": "Documents with inaccessible links",
+              "not_present": "Documents without hyperlinks",
+              "cannot_tell": "Raw Documents"
+            },
+            "logical_reading_order": {
+              "passed": "Documents with proper structure",
+              "failed": "Documents with reading order issues",
+              "cannot_tell": "Raw Documents"
+            },
+            "semantic_tagging": {
+              "passed": "Documents with proper semantic markup",
+              "failed": "Documents lacking semantic structure",
+              "not_present": "Documents without tags",
+              "cannot_tell": "Raw Documents"
+            },
+            "table_structure": {
+              "passed": "Documents with accessible tables",
+              "failed": "Documents with inaccessible tables",
+              "not_present": "Documents without tables",
+              "cannot_tell": "Raw Documents"
+            }
+          }
+        }
+      },
+      "documentation": {
+        "description": "Dataset documentation and methodology",
+        "files": [
+          "README.md"
+        ]
+      }
+    }
+  },
+
+  "input_file_formats": {
+    "pdf": {
+      "description": "Source PDF documents for accessibility analysis",
+      "specifications": "PDF/A compliant where possible, various PDF versions supported",
+      "count": 125
+    },
+    "png": {
+      "description": "Page images extracted from PDFs for visual analysis",
+      "specifications": "High-resolution images (300 DPI minimum)",
+      "usage": "Color contrast analysis, layout detection, visual element identification etc"
+    },
+    "jpg": {
+      "description": "Alternative image format for page captures",
+      "specifications": "JPEG format with quality settings optimized for analysis",
+      "usage": "Compressed image storage for large-scale processing"
+    },
+    "json": {
+      "description": "Structured metadata/analysis results",
+      "specifications": "UTF-8 encoded JSON with standardized schema",
+      "usage": "Document metadata, tag structures, font information"
+    },
+    "txt": {
+      "description": "Screen Reader transcripts or text extractions from PDF documents",
+      "specifications": "UTF-8 encoded text with preserved formatting where possible",
+      "usage": "Reading order evaluation, content extraction"
+    }
+  },
+
+  "methodology": {
+    "expert_validation": {
+      "process": "Multi-stage validation with accessibility specialists"
+    },
+    "document_modification": {
+      "tool": "Adobe Acrobat Pro DC",
+      "approach": "Systematic introduction and removal of accessibility barriers",
+      "modifications": [
+        "Alternative text addition/removal",
+        "Color contrast adjustment",
+        "Font modification",
+        "Hyperlink accessibility changes",
+        "Reading order manipulation",
+        "Semantic tag modification",
+        "Table structure alteration"
+      ]
+    },
+    "input_extraction": {
+      "tools": {
+        "pymupdf": {
+          "description": "Python library for PDF data extraction",
+          "usage": "Text extraction, page rendering, metadata retrieval",
+          "capabilities": "OCR support, structure analysis, multi-format output"
+        },
+        "adobe_pdf_extract_api": {
+          "description": "Cloud-based PDF content extraction service",
+          "usage": "AI-powered structure detection, content extraction",
+          "capabilities": "Table parsing, figure extraction, natural reading order"
+        },
+        "pdfix_sdk": {
+          "description": "High-performance PDF processing library",
+          "usage": "Structure detection, automated tagging, compliance checking",
+          "capabilities": "AI-powered layout analysis, batch processing"
+        }
+      }
+    },
+    "screen_reader_testing": {
+      "tools": ["VoiceOver"],
+      "process": "Automated transcript generation with manual validation",
+      "outputs": "Screen reader interaction logs, navigation transcripts"
+    }
+  },
+
+  "llm_benchmarking": {
+    "models_evaluated": {
+      "gpt_4_turbo": {
+        "version": "GPT-4-Turbo"
+      },
+      "gpt_4o_vision": {
+        "version": "GPT-4o-Vision"
+      },
+      "claude_3_5": {
+        "version": "Claude-3.5"
+      },
+      "gemini_1_5": {
+        "version": "Gemini-1.5"
+      },
+      "llama_3_2": {
+        "version": "Llama-3.2"
+      }
+    },
+    "evaluation_framework": {
+      "metrics": ["Accuracy", "Precision", "Recall", "F1-Score"],
+      "comparison_tools": "Automated accessibility checkers (PAC, Adobe Acrobat Pro)"
+    }
+  },
+
+  "automated_tools_comparison": {
+    "tools_evaluated": [
+      "PAC (PDF Accessibility Checker)", 
+      "Adobe Acrobat Pro Accessibility Checker", 
+      "axesSense PDF/UA Validator",
+      "WAVE Web Accessibility Evaluator",
+      "CommonLook PDF Validator"
+    ],
+    "comparison_metrics": [
+      "Detection accuracy",
+      "Guideline coverage",
+      "False positive/negative rates",
+      "Processing speed",
+      "User interface usability"
+    ]
+  }
+}

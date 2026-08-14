@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Maris PDF accessibility remediation planner"
+    >
+
+    <title>Maris | PDF Remediation Planner</title>
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="/static/styles.css?v=3"
+    >
+</head>
+
+
+<body>
+
+    <header class="topbar">
+
+        <a
+            href="/"
+            class="brand"
+            aria-label="Maris home"
+        >
+            <div
+                class="brand-mark"
+                aria-hidden="true"
+            >
+                M
+            </div>
+
+            <div>
+                <div class="brand-name">
+                    Maris
+                </div>
+
+                <div class="brand-sub">
+                    PDF Remediation Planner
+                </div>
+            </div>
+        </a>
+
+
+        <button
+            id="newScanHeaderButton"
+            class="secondary-button hidden"
+            type="button"
+        >
+            New scan
+        </button>
+
+    </header>
+
+
+    <main>
+
+        <!-- ==================================================
+             LANDING
+        =================================================== -->
+
+        <section
+            id="landingView"
+            class="view landing-view"
+        >
+
+            <div class="landing-content">
+
+                <div class="eyebrow">
+                    Accessibility decision support
+                </div>
+
+                <h1>
+                    Understand what to do
+                    with your PDF backlog.
+                </h1>
+
+                <p class="landing-copy">
+                    Scan a public website, inventory its PDFs,
+                    identify similar document families, and route
+                    documents into practical remediation workflows.
+                </p>
+
+
+                <form
+                    id="scanForm"
+                    class="scan-form"
+                >
+
+                    <label
+                        for="websiteUrl"
+                        class="sr-only"
+                    >
+                        Website URL
+                    </label>
+
+                    <div class="scan-input-shell">
+
+                        <input
+                            id="websiteUrl"
+                            name="websiteUrl"
+                            type="text"
+                            autocomplete="url"
+                            placeholder="Enter a website URL"
+                            required
+                        >
+
+                        <button
+                            id="scanButton"
+                            type="submit"
+                            class="primary-button scan-button"
+                        >
+                            Scan site
+                        </button>
+
+                    </div>
+
+                    <p
+                        id="landingError"
+                        class="form-error hidden"
+                        role="alert"
+                    ></p>
+
+                </form>
+
+
+                <div class="landing-hints">
+
+                    <span>
+                        Public pages only
+                    </span>
+
+                    <span aria-hidden="true">
+                        •
+                    </span>
+
+                    <span>
+                        Up to 400 pages
+                    </span>
+
+                    <span aria-hidden="true">
+                        •
+                    </span>
+
+                    <span>
+                        No PDFs are modified
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==================================================
+             SCANNING
+        =================================================== -->
+
+        <section
+            id="scanningView"
+            class="view scanning-view hidden"
+            aria-live="polite"
+        >
+
+            <div class="scan-panel">
+
+                <div class="eyebrow">
+                    Scan in progress
+                </div>
+
+                <h1 class="scan-heading">
+                    Analyzing your PDF landscape
+                </h1>
+
+                <div
+                    id="scanningDomain"
+                    class="scan-domain"
+                ></div>
+
+
+                <div
+                    class="scanner-orbit"
+                    aria-hidden="true"
+                >
+                    <div class="scanner-ring"></div>
+                    <div class="scanner-core"></div>
+                    <div class="scanner-dot"></div>
+                </div>
+
+
+                <div
+                    id="scanStageLabel"
+                    class="scan-stage-label"
+                >
+                    Preparing scan
+                </div>
+
+
+                <div class="scan-stats">
+
+                    <div class="scan-stat-card">
+                        <div
+                            id="pagesVisited"
+                            class="scan-stat-value"
+                        >
+                            0
+                        </div>
+
+                        <div class="scan-stat-label">
+                            Pages visited
+                        </div>
+                    </div>
+
+
+                    <div class="scan-stat-card">
+                        <div
+                            id="pdfsFound"
+                            class="scan-stat-value"
+                        >
+                            0
+                        </div>
+
+                        <div class="scan-stat-label">
+                            PDFs found
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="progress-shell">
+
+                    <div class="progress-label-row">
+
+                        <span>
+                            Progress
+                        </span>
+
+                        <span id="progressPercent">
+                            0%
+                        </span>
+
+                    </div>
+
+                    <div
+                        class="progress-track"
+                        role="progressbar"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        aria-valuenow="0"
+                        id="progressBar"
+                    >
+
+                        <div
+                            id="progressFill"
+                            class="progress-fill"
+                        ></div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="pipeline">
+
+                    <div
+                        class="pipeline-step"
+                        data-stage="discovering"
+                    >
+                        Discover
+                    </div>
+
+                    <div class="pipeline-line"></div>
+
+                    <div
+                        class="pipeline-step"
+                        data-stage="analyzing"
+                    >
+                        Analyze
+                    </div>
+
+                    <div class="pipeline-line"></div>
+
+                    <div
+                        class="pipeline-step"
+                        data-stage="grouping"
+                    >
+                        Group
+                    </div>
+
+                    <div class="pipeline-line"></div>
+
+                    <div
+                        class="pipeline-step"
+                        data-stage="understanding"
+                    >
+                        Understand
+                    </div>
+
+                    <div class="pipeline-line"></div>
+
+                    <div
+                        class="pipeline-step"
+                        data-stage="triaging"
+                    >
+                        Triage
+                    </div>
+
+                </div>
+
+
+                <div
+                    id="currentDocument"
+                    class="current-document"
+                ></div>
+
+
+                <div
+                    id="stopScanArea"
+                    class="hidden"
+                    style="margin-top: 24px;"
+                >
+                    <button
+                        id="stopAnalyzeButton"
+                        class="secondary-button"
+                        type="button"
+                    >
+                        Stop &amp; analyze PDFs found so far
+                    </button>
+
+                    <div
+                        id="stopScanHint"
+                        style="
+                            margin-top: 9px;
+                            color: #9a9db1;
+                            font-size: 11px;
+                        "
+                    >
+                        Stops discovery only. PDFs already found will still be analyzed.
+                    </div>
+                </div>
+
+
+                <p
+                    id="scanError"
+                    class="form-error hidden"
+                    role="alert"
+                ></p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==================================================
+             RESULTS
+        =================================================== -->
+
+        <section
+            id="resultsView"
+            class="view results-view hidden"
+        >
+
+            <div class="results-heading-row">
+
+                <div>
+
+                    <div class="eyebrow">
+                        Scan complete
+                    </div>
+
+                    <h1 id="resultsDomain">
+                        Results
+                    </h1>
+
+                    <p
+                        id="resultsMeta"
+                        class="results-meta"
+                    ></p>
+
+                </div>
+
+
+                <button
+                    id="newScanButton"
+                    class="secondary-button"
+                    type="button"
+                >
+                    New scan
+                </button>
+
+            </div>
+
+
+            <section
+                class="summary-strip"
+                aria-label="Scan summary"
+            >
+
+                <div class="summary-item">
+
+                    <div
+                        id="totalDocuments"
+                        class="summary-value"
+                    >
+                        0
+                    </div>
+
+                    <div class="summary-label">
+                        PDFs analyzed
+                    </div>
+
+                </div>
+
+
+                <div class="summary-divider"></div>
+
+
+                <div class="summary-item">
+
+                    <div
+                        id="familyCount"
+                        class="summary-value"
+                    >
+                        0
+                    </div>
+
+                    <div class="summary-label">
+                        Similar groups
+                    </div>
+
+                </div>
+
+
+                <div class="summary-divider"></div>
+
+
+                <div class="summary-item">
+
+                    <div
+                        id="formCount"
+                        class="summary-value"
+                    >
+                        0
+                    </div>
+
+                    <div class="summary-label">
+                        Forms identified
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!--
+                There is intentionally NO separate AI triage section here.
+
+                AI document understanding + RAG now happen inside
+                the normal Maris scan workflow. The user receives
+                one final recommendation instead of two competing
+                result sets.
+            -->
+
+
+            <section class="dashboard-section">
+
+                <div class="section-heading">
+
+                    <div>
+                        <div class="section-kicker">
+                            Recommended actions
+                        </div>
+
+                        <h2>
+                            Where should the work go?
+                        </h2>
+                    </div>
+
+                    <p>
+                        Recommendations are decision-support signals,
+                        not automatic compliance determinations.
+                    </p>
+
+                </div>
+
+
+                <div
+                    id="actionSummaryGrid"
+                    class="action-grid"
+                ></div>
+
+            </section>
+
+
+            <nav
+                class="tabs"
+                aria-label="Results sections"
+            >
+
+                <button
+                    class="tab-button active"
+                    data-tab="queue"
+                    type="button"
+                >
+                    Action Queue
+                </button>
+
+                <button
+                    class="tab-button"
+                    data-tab="families"
+                    type="button"
+                >
+                    Similar Documents
+                </button>
+
+                <button
+                    class="tab-button"
+                    data-tab="all"
+                    type="button"
+                >
+                    All PDFs
+                </button>
+
+            </nav>
+
+
+            <section
+                id="queuePanel"
+                class="tab-panel"
+            >
+
+                <div class="queue-layout">
+
+                    <aside
+                        id="actionFilterList"
+                        class="action-filter-list"
+                        aria-label="Remediation pathways"
+                    ></aside>
+
+
+                    <div>
+
+                        <div
+                            id="selectedActionHeading"
+                            class="queue-heading"
+                        ></div>
+
+                        <div
+                            id="actionResults"
+                            class="results-list"
+                        ></div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <section
+                id="familiesPanel"
+                class="tab-panel hidden"
+            >
+
+                <div class="section-heading compact">
+
+                    <div>
+                        <div class="section-kicker">
+                            Document families
+                        </div>
+
+                        <h2>
+                            Similar PDFs
+                        </h2>
+                    </div>
+
+                </div>
+
+
+                <div
+                    id="familyResults"
+                    class="results-list"
+                ></div>
+
+            </section>
+
+
+            <section
+                id="allPanel"
+                class="tab-panel hidden"
+            >
+
+                <div class="document-toolbar">
+
+                    <label
+                        class="search-documents"
+                        for="documentSearch"
+                    >
+                        <span class="sr-only">
+                            Search documents
+                        </span>
+
+                        <input
+                            id="documentSearch"
+                            type="search"
+                            placeholder="Search documents"
+                        >
+                    </label>
+
+                </div>
+
+
+                <div
+                    id="allDocuments"
+                    class="results-list"
+                ></div>
+
+            </section>
+
+        </section>
+
+    </main>
+
+
+    <script src="/static/app.js?v=3"></script>
+
+</body>
+</html>

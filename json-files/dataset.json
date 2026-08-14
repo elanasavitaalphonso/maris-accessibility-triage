@@ -1,0 +1,2140 @@
+{
+  "name": "PDF-Accessibility-Benchmark",
+  "version": "1.0",
+  "tasks": {
+    "alt_text_quality": {
+      "cannot_tell": [
+        {
+          "openalex_id": "W2460269320",
+          "title": "Dataset: Accessible LaTeX-sourced PDFs from arXiv, PubMed Central, BioRxiv, and PLOS One",
+          "year": 2020,
+          "venue": "Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems",
+          "doi": "10.1145/3313831.3376728",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/alt_text_quality/cannot_tell/W2460269320.pdf",
+          "input_pdfs": [
+            "data/inputs/alt_text_quality/cannot_tell/W2460269320/W2460269320_0.pdf",
+            "data/inputs/alt_text_quality/cannot_tell/W2460269320/W2460269320_1.pdf"
+          ],
+          "html_pages": [
+            "data/inputs/alt_text_quality/cannot_tell/W2460269320/W2460269320_0.html",
+            "data/inputs/alt_text_quality/cannot_tell/W2460269320/W2460269320_1.html"
+          ],
+          "image_files": [
+            "W2460269320_0#0.jpg",
+            "W2460269320_0.png",
+            "W2460269320_1.png"
+          ]
+        },
+        {
+          "openalex_id": "W2929611936",
+          "title": "CABA dataset: a bilingual corpus of HTML documents with accessibility annotations and ARIA",
+          "year": 2020,
+          "venue": "Companion of the 2020 ACM/IEEE Joint Conference on Digital Libraries",
+          "doi": "10.1145/3383583.3398534",
+          "type": "conference-proceedings",
+          "pdf_path": "data/processed/alt_text_quality/cannot_tell/W2929611936.pdf",
+          "input_pdfs": [
+            "data/inputs/alt_text_quality/cannot_tell/W2929611936/W2929611936_0.pdf",
+            "data/inputs/alt_text_quality/cannot_tell/W2929611936/W2929611936_1.pdf"
+          ],
+          "html_pages": [
+            "data/inputs/alt_text_quality/cannot_tell/W2929611936/W2929611936_0.html",
+            "data/inputs/alt_text_quality/cannot_tell/W2929611936/W2929611936_1.html"
+          ],
+          "image_files": [
+            "W2929611936_0#0.jpg",
+            "W2929611936_0.png",
+            "W2929611936_1#0.jpg",
+            "W2929611936_1#1.jpg",
+            "W2929611936_1.png"
+          ]
+        },
+        {
+          "openalex_id": "W3005755974",
+          "title": "Dataset of the 20th International ACM SIGACCESS Conference on Computers and Accessibility",
+          "year": 2018,
+          "venue": "Proceedings of the 20th International ACM SIGACCESS Conference on Computers and Accessibility",
+          "doi": "10.1145/3234695.3241014",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/alt_text_quality/cannot_tell/W3005755974.pdf",
+          "input_pdfs": [
+            "data/inputs/alt_text_quality/cannot_tell/W3005755974/W3005755974_0.pdf"
+          ],
+          "html_pages": [
+            "data/inputs/alt_text_quality/cannot_tell/W3005755974/W3005755974_0.html"
+          ],
+          "image_files": [
+            "W3005755974_0#0.jpg",
+            "W3005755974_0.png"
+          ]
+        },
+        {
+          "openalex_id": "W4206740007",
+          "title": "Global Earthquake Model (GEM) architecture implementation for accessible geospatial content",
+          "year": 2018,
+          "venue": "Computers & Graphics",
+          "doi": "10.1016/j.cag.2018.10.004",
+          "type": "journal-article",
+          "pdf_path": "data/processed/alt_text_quality/cannot_tell/W4206740007.pdf",
+          "input_pdfs": [
+            "data/inputs/alt_text_quality/cannot_tell/W4206740007/W4206740007_0.pdf"
+          ],
+          "html_pages": [
+            "data/inputs/alt_text_quality/cannot_tell/W4206740007/W4206740007_0.html"
+          ],
+          "image_files": [
+            "W4206740007_0#0.jpg",
+            "W4206740007_0.png"
+          ]
+        },
+        {
+          "openalex_id": "W4383621582",
+          "title": "Making Science Accessible: A ResearchKit-Based Gastroenterology Questionnaire for the Chemotherapy Databank",
+          "year": 2019,
+          "venue": "AMIA Annual Symposium Proceedings",
+          "doi": "10.1109/BHI.2019.8834711",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/alt_text_quality/cannot_tell/W4383621582.pdf",
+          "input_pdfs": [
+            "data/inputs/alt_text_quality/cannot_tell/W4383621582/W4383621582_0.pdf"
+          ],
+          "html_pages": [
+            "data/inputs/alt_text_quality/cannot_tell/W4383621582/W4383621582_0.html"
+          ],
+          "image_files": [
+            "W4383621582_0#0.jpg",
+            "W4383621582_0.png"
+          ]
+        }
+      ],
+      "failed": [
+        {
+          "openalex_id": "W2460269320",
+          "title": "Dataset: Accessible LaTeX-sourced PDFs from arXiv, PubMed Central, BioRxiv, and PLOS One",
+          "year": 2020,
+          "venue": "Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems",
+          "doi": "10.1145/3313831.3376728",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/alt_text_quality/failed/W2460269320.pdf",
+          "input_pdfs": [
+            "data/inputs/alt_text_quality/failed/W2460269320/W2460269320_0.pdf",
+            "data/inputs/alt_text_quality/failed/W2460269320/W2460269320_1.pdf"
+          ],
+          "html_pages": [
+            "data/inputs/alt_text_quality/failed/W2460269320/W2460269320_0.html",
+            "data/inputs/alt_text_quality/failed/W2460269320/W2460269320_1.html"
+          ],
+          "image_files": [
+            "W2460269320_0#0.jpg",
+            "W2460269320_0.png",
+            "W2460269320_1.png"
+          ]
+        },
+        {
+          "openalex_id": "W2929611936",
+          "title": "CABA dataset: a bilingual corpus of HTML documents with accessibility annotations and ARIA",
+          "year": 2020,
+          "venue": "Companion of the 2020 ACM/IEEE Joint Conference on Digital Libraries",
+          "doi": "10.1145/3383583.3398534",
+          "type": "conference-proceedings",
+          "pdf_path": "data/processed/alt_text_quality/failed/W2929611936.pdf",
+          "input_pdfs": [
+            "data/inputs/alt_text_quality/failed/W2929611936/W2929611936_0.pdf",
+            "data/inputs/alt_text_quality/failed/W2929611936/W2929611936_1.pdf"
+          ],
+          "html_pages": [
+            "data/inputs/alt_text_quality/failed/W2929611936/W2929611936_0.html",
+            "data/inputs/alt_text_quality/failed/W2929611936/W2929611936_1.html"
+          ],
+          "image_files": [
+            "W2929611936_0#0.jpg",
+            "W2929611936_0.png",
+            "W2929611936_1#0.jpg",
+            "W2929611936_1#1.jpg",
+            "W2929611936_1.png"
+          ]
+        },
+        {
+          "openalex_id": "W3005755974",
+          "title": "Dataset of the 20th International ACM SIGACCESS Conference on Computers and Accessibility",
+          "year": 2018,
+          "venue": "Proceedings of the 20th International ACM SIGACCESS Conference on Computers and Accessibility",
+          "doi": "10.1145/3234695.3241014",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/alt_text_quality/failed/W3005755974.pdf",
+          "input_pdfs": [
+            "data/inputs/alt_text_quality/failed/W3005755974/W3005755974_0.pdf"
+          ],
+          "html_pages": [
+            "data/inputs/alt_text_quality/failed/W3005755974/W3005755974_0.html"
+          ],
+          "image_files": [
+            "W3005755974_0#0.jpg",
+            "W3005755974_0.png"
+          ]
+        },
+        {
+          "openalex_id": "W4206740007",
+          "title": "Global Earthquake Model (GEM) architecture implementation for accessible geospatial content",
+          "year": 2018,
+          "venue": "Computers & Graphics",
+          "doi": "10.1016/j.cag.2018.10.004",
+          "type": "journal-article",
+          "pdf_path": "data/processed/alt_text_quality/failed/W4206740007.pdf",
+          "input_pdfs": [
+            "data/inputs/alt_text_quality/failed/W4206740007/W4206740007_0.pdf"
+          ],
+          "html_pages": [
+            "data/inputs/alt_text_quality/failed/W4206740007/W4206740007_0.html"
+          ],
+          "image_files": [
+            "W4206740007_0#0.jpg",
+            "W4206740007_0.png"
+          ]
+        },
+        {
+          "openalex_id": "W4383621582",
+          "title": "Making Science Accessible: A ResearchKit-Based Gastroenterology Questionnaire for the Chemotherapy Databank",
+          "year": 2019,
+          "venue": "AMIA Annual Symposium Proceedings",
+          "doi": "10.1109/BHI.2019.8834711",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/alt_text_quality/failed/W4383621582.pdf",
+          "input_pdfs": [
+            "data/inputs/alt_text_quality/failed/W4383621582/W4383621582_0.pdf"
+          ],
+          "html_pages": [
+            "data/inputs/alt_text_quality/failed/W4383621582/W4383621582_0.html"
+          ],
+          "image_files": [
+            "W4383621582_0#0.jpg",
+            "W4383621582_0.png"
+          ]
+        }
+      ],
+      "not_present": [
+        {
+          "openalex_id": "W2460269320",
+          "title": "Dataset: Accessible LaTeX-sourced PDFs from arXiv, PubMed Central, BioRxiv, and PLOS One",
+          "year": 2020,
+          "venue": "Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems",
+          "doi": "10.1145/3313831.3376728",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/alt_text_quality/not_present/W2460269320.pdf",
+          "input_pdfs": [
+            "data/inputs/alt_text_quality/not_present/W2460269320/W2460269320_0.pdf",
+            "data/inputs/alt_text_quality/not_present/W2460269320/W2460269320_1.pdf"
+          ],
+          "html_pages": [
+            "data/inputs/alt_text_quality/not_present/W2460269320/W2460269320_0.html",
+            "data/inputs/alt_text_quality/not_present/W2460269320/W2460269320_1.html"
+          ],
+          "image_files": [
+            "W2460269320_0#0.jpg",
+            "W2460269320_0.png",
+            "W2460269320_1.png"
+          ]
+        },
+        {
+          "openalex_id": "W2929611936",
+          "title": "CABA dataset: a bilingual corpus of HTML documents with accessibility annotations and ARIA",
+          "year": 2020,
+          "venue": "Companion of the 2020 ACM/IEEE Joint Conference on Digital Libraries",
+          "doi": "10.1145/3383583.3398534",
+          "type": "conference-proceedings",
+          "pdf_path": "data/processed/alt_text_quality/not_present/W2929611936.pdf",
+          "input_pdfs": [
+            "data/inputs/alt_text_quality/not_present/W2929611936/W2929611936_0.pdf",
+            "data/inputs/alt_text_quality/not_present/W2929611936/W2929611936_1.pdf"
+          ],
+          "html_pages": [
+            "data/inputs/alt_text_quality/not_present/W2929611936/W2929611936_0.html",
+            "data/inputs/alt_text_quality/not_present/W2929611936/W2929611936_1.html"
+          ],
+          "image_files": [
+            "W2929611936_0#0.jpg",
+            "W2929611936_0.png",
+            "W2929611936_1#0.jpg",
+            "W2929611936_1#1.jpg",
+            "W2929611936_1.png"
+          ]
+        },
+        {
+          "openalex_id": "W3005755974",
+          "title": "Dataset of the 20th International ACM SIGACCESS Conference on Computers and Accessibility",
+          "year": 2018,
+          "venue": "Proceedings of the 20th International ACM SIGACCESS Conference on Computers and Accessibility",
+          "doi": "10.1145/3234695.3241014",      
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/alt_text_quality/not_present/W3005755974.pdf",
+          "input_pdfs": [
+            "data/inputs/alt_text_quality/not_present/W3005755974/W3005755974_0.pdf"
+          ],
+          "html_pages": [
+            "data/inputs/alt_text_quality/not_present/W3005755974/W3005755974_0.html"
+          ],
+          "image_files": [
+            "W3005755974_0#0.jpg",
+            "W3005755974_0.png"
+          ]
+        },
+        {
+          "openalex_id": "W4206740007",
+          "title": "Global Earthquake Model (GEM) architecture implementation for accessible geospatial content",
+          "year": 2018,
+          "venue": "Computers & Graphics",
+          "doi": "10.1016/j.cag.2018.10.004",
+          "type": "journal-article",
+          "pdf_path": "data/processed/alt_text_quality/not_present/W4206740007.pdf",
+          "input_pdfs": [
+            "data/inputs/alt_text_quality/not_present/W4206740007/W4206740007_0.pdf"
+          ],
+          "html_pages": [
+            "data/inputs/alt_text_quality/not_present/W4206740007/W4206740007_0.html"
+          ],
+          "image_files": [
+            "W4206740007_0#0.jpg",
+            "W4206740007_0.png"
+          ]
+        },
+        {
+          "openalex_id": "W4383621582",
+          "title": "Making Science Accessible: A ResearchKit-Based Gastroenterology Questionnaire for the Chemotherapy Databank",
+          "year": 2019,
+          "venue": "AMIA Annual Symposium Proceedings",
+          "doi": "10.1109/BHI.2019.8834711",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/alt_text_quality/not_present/W4383621582.pdf",
+          "input_pdfs": [
+            "data/inputs/alt_text_quality/not_present/W4383621582/W4383621582_0.pdf"
+          ],
+          "html_pages": [
+            "data/inputs/alt_text_quality/not_present/W4383621582/W4383621582_0.html"
+          ],
+          "image_files": [
+            "W4383621582_0#0.jpg",
+            "W4383621582_0.png"
+          ]
+        }
+      ],
+      "passed": [
+        {
+          "openalex_id": "W2460269320",
+          "title": "Dataset: Accessible LaTeX-sourced PDFs from arXiv, PubMed Central, BioRxiv, and PLOS One",
+          "year": 2020,
+          "venue": "Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems",
+          "doi": "10.1145/3313831.3376728",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/alt_text_quality/passed/W2460269320.pdf",
+          "input_pdfs": [
+            "data/inputs/alt_text_quality/passed/W2460269320/W2460269320_0.pdf",
+            "data/inputs/alt_text_quality/passed/W2460269320/W2460269320_1.pdf"
+          ],
+          "html_pages": [
+            "data/inputs/alt_text_quality/passed/W2460269320/W2460269320_0.html",
+            "data/inputs/alt_text_quality/passed/W2460269320/W2460269320_1.html"
+          ],
+          "image_files": [
+            "W2460269320_0#0.jpg",
+            "W2460269320_0.png",
+            "W2460269320_1.png"
+          ]
+        },
+        {
+          "openalex_id": "W2929611936",
+          "title": "CABA dataset: a bilingual corpus of HTML documents with accessibility annotations and ARIA",
+          "year": 2020,
+          "venue": "Companion of the 2020 ACM/IEEE Joint Conference on Digital Libraries",
+          "doi": "10.1145/3383583.3398534",
+          "type": "conference-proceedings",
+          "pdf_path": "data/processed/alt_text_quality/passed/W2929611936.pdf",
+          "input_pdfs": [
+            "data/inputs/alt_text_quality/passed/W2929611936/W2929611936_0.pdf",
+            "data/inputs/alt_text_quality/passed/W2929611936/W2929611936_1.pdf"
+          ],
+          "html_pages": [
+            "data/inputs/alt_text_quality/passed/W2929611936/W2929611936_0.html",
+            "data/inputs/alt_text_quality/passed/W2929611936/W2929611936_1.html"
+          ],
+          "image_files": [
+            "W2929611936_0#0.jpg",
+            "W2929611936_0.png",
+            "W2929611936_1#0.jpg",
+            "W2929611936_1#1.jpg",
+            "W2929611936_1.png"
+          ]
+        },
+        {
+          "openalex_id": "W3005755974",
+          "title": "Dataset of the 20th International ACM SIGACCESS Conference on Computers and Accessibility",
+          "year": 2018,
+          "venue": "Proceedings of the 20th International ACM SIGACCESS Conference on Computers and Accessibility",
+          "doi": "10.1145/3234695.3241014",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/alt_text_quality/passed/W3005755974.pdf",
+          "input_pdfs": [
+            "data/inputs/alt_text_quality/passed/W3005755974/W3005755974_0.pdf"
+          ],
+          "html_pages": [
+            "data/inputs/alt_text_quality/passed/W3005755974/W3005755974_0.html"
+          ],
+          "image_files": [
+            "W3005755974_0#0.jpg",
+            "W3005755974_0.png"
+          ]
+        },
+        {
+          "openalex_id": "W4206740007",
+          "title": "Global Earthquake Model (GEM) architecture implementation for accessible geospatial content",
+          "year": 2018,
+          "venue": "Computers & Graphics",
+          "doi": "10.1016/j.cag.2018.10.004",
+          "type": "journal-article",
+          "pdf_path": "data/processed/alt_text_quality/passed/W4206740007.pdf",
+          "input_pdfs": [
+            "data/inputs/alt_text_quality/passed/W4206740007/W4206740007_0.pdf"
+          ],
+          "html_pages": [
+            "data/inputs/alt_text_quality/passed/W4206740007/W4206740007_0.html"
+          ],
+          "image_files": [
+            "W4206740007_0#0.jpg",
+            "W4206740007_0.png"
+          ]
+        },
+        {
+          "openalex_id": "W4383621582",
+          "title": "Making Science Accessible: A ResearchKit-Based Gastroenterology Questionnaire for the Chemotherapy Databank",
+          "year": 2019,
+          "venue": "AMIA Annual Symposium Proceedings",
+          "doi": "10.1109/BHI.2019.8834711",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/alt_text_quality/passed/W4383621582.pdf",
+          "input_pdfs": [
+            "data/inputs/alt_text_quality/passed/W4383621582/W4383621582_0.pdf"
+          ],
+          "html_pages": [
+            "data/inputs/alt_text_quality/passed/W4383621582/W4383621582_0.html"
+          ],
+          "image_files": [
+            "W4383621582_0#0.jpg",
+            "W4383621582_0.png"
+          ]
+        }
+      ]
+    },
+    "color_contrast": {
+      "cannot_tell": [
+        {
+          "openalex_id": "W1989729767",
+          "title": "Navigating Text Complexity: A Survey of Current Metrics and a New Readability Measure for Dyslexic Readers",
+          "year": 2017,
+          "venue": "Proceedings of the International ACM SIGACCESS Conference on Computers and Accessibility",
+          "doi": "10.1145/3132525.3132537",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/color_contrast/cannot_tell/W1989729767.pdf",
+          "input_pdfs": [
+            "data/inputs/color_contrast/cannot_tell/W1989729767/W1989729767_0.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W1996876153",
+          "title": "Dataset for Screen Reading Tests of Dyslexic Users",
+          "year": 2018,
+          "venue": "Companion of the 2018 ACM Conference on Computer Supported Cooperative Work and Social Computing",
+          "doi": "10.1145/3272973.3274142",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/color_contrast/cannot_tell/W1996876153.pdf",
+          "input_pdfs": [
+            "data/inputs/color_contrast/cannot_tell/W1996876153/W1996876153_0.pdf",
+            "data/inputs/color_contrast/cannot_tell/W1996876153/W1996876153_1.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2016642098",
+          "title": "You Only Look Once: Unified, Real-Time Object Detection",
+          "year": 2016,
+          "venue": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+          "doi": "10.1109/CVPR.2016.91",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/color_contrast/cannot_tell/W2016642098.pdf",
+          "input_pdfs": [
+            "data/inputs/color_contrast/cannot_tell/W2016642098/W2016642098_0.pdf",
+            "data/inputs/color_contrast/cannot_tell/W2016642098/W2016642098_1.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2595658205",
+          "title": "Progressive Neural Networks",
+          "year": 2016,
+          "venue": "arXiv",
+          "doi": "10.1145/3034966.3034967",
+          "type": "other",
+          "pdf_path": "data/processed/color_contrast/cannot_tell/W2595658205.pdf",
+          "input_pdfs": [
+            "data/inputs/color_contrast/cannot_tell/W2595658205/W2595658205_0.pdf",
+            "data/inputs/color_contrast/cannot_tell/W2595658205/W2595658205_1.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2642438850",
+          "title": "The 2018 Year in Review for Accessibility at SIGACCESS",
+          "year": 2018,
+          "venue": "Proceedings of the 2018 ACM SIGACCESS Conference on Computers and Accessibility",
+          "doi": "10.1145/3264900.3271574",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/color_contrast/cannot_tell/W2642438850.pdf",
+          "input_pdfs": [
+            "data/inputs/color_contrast/cannot_tell/W2642438850/W2642438850_0.pdf",
+            "data/inputs/color_contrast/cannot_tell/W2642438850/W2642438850_1.pdf"
+          ]
+        }
+      ],
+      "failed": [
+        {
+          "openalex_id": "W1989729767",
+          "title": "Navigating Text Complexity: A Survey of Current Metrics and a New Readability Measure for Dyslexic Readers",
+          "year": 2017,
+          "venue": "Proceedings of the International ACM SIGACCESS Conference on Computers and Accessibility",
+          "doi": "10.1145/3132525.3132537",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/color_contrast/failed/W1989729767.pdf",
+          "input_pdfs": [
+            "data/inputs/color_contrast/failed/W1989729767/W1989729767_0.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W1996876153",
+          "title": "Dataset for Screen Reading Tests of Dyslexic Users",
+          "year": 2018,
+          "venue": "Companion of the 2018 ACM Conference on Computer Supported Cooperative Work and Social Computing",
+          "doi": "10.1145/3272973.3274142",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/color_contrast/failed/W1996876153.pdf",
+          "input_pdfs": [
+            "data/inputs/color_contrast/failed/W1996876153/W1996876153_0.pdf",
+            "data/inputs/color_contrast/failed/W1996876153/W1996876153_1.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2016642098",
+          "title": "You Only Look Once: Unified, Real-Time Object Detection",
+          "year": 2016,
+          "venue": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+          "doi": "10.1109/CVPR.2016.91",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/color_contrast/failed/W2016642098.pdf",
+          "input_pdfs": [
+            "data/inputs/color_contrast/failed/W2016642098/W2016642098_0.pdf",
+            "data/inputs/color_contrast/failed/W2016642098/W2016642098_1.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2595658205",
+          "title": "Progressive Neural Networks",
+          "year": 2016,
+          "venue": "arXiv",
+          "doi": "10.1145/3034966.3034967",
+          "type": "other",
+          "pdf_path": "data/processed/color_contrast/failed/W2595658205.pdf",
+          "input_pdfs": [
+            "data/inputs/color_contrast/failed/W2595658205/W2595658205_0.pdf",
+            "data/inputs/color_contrast/failed/W2595658205/W2595658205_1.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2642438850",
+          "title": "The 2018 Year in Review for Accessibility at SIGACCESS",
+          "year": 2018,
+          "venue": "Proceedings of the 2018 ACM SIGACCESS Conference on Computers and Accessibility",
+          "doi": "10.1145/3264900.3271574",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/color_contrast/failed/W2642438850.pdf",
+          "input_pdfs": [
+            "data/inputs/color_contrast/failed/W2642438850/W2642438850_0.pdf",
+            "data/inputs/color_contrast/failed/W2642438850/W2642438850_1.pdf"
+          ]
+        }
+      ],
+      "passed": [
+        {
+          "openalex_id": "W1989729767",
+          "title": "Navigating Text Complexity: A Survey of Current Metrics and a New Readability Measure for Dyslexic Readers",
+          "year": 2017,
+          "venue": "Proceedings of the International ACM SIGACCESS Conference on Computers and Accessibility",
+          "doi": "10.1145/3132525.3132537",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/color_contrast/passed/W1989729767.pdf",
+          "input_pdfs": [
+            "data/inputs/color_contrast/passed/W1989729767/W1989729767_0.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W1996876153",
+          "title": "Dataset for Screen Reading Tests of Dyslexic Users",
+          "year": 2018,
+          "venue": "Companion of the 2018 ACM Conference on Computer Supported Cooperative Work and Social Computing",
+          "doi": "10.1145/3272973.3274142",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/color_contrast/passed/W1996876153.pdf",
+          "input_pdfs": [
+            "data/inputs/color_contrast/passed/W1996876153/W1996876153_0.pdf",
+            "data/inputs/color_contrast/passed/W1996876153/W1996876153_1.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2016642098",
+          "title": "You Only Look Once: Unified, Real-Time Object Detection",
+          "year": 2016,
+          "venue": "Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition",
+          "doi": "10.1109/CVPR.2016.91",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/color_contrast/passed/W2016642098.pdf",
+          "input_pdfs": [
+            "data/inputs/color_contrast/passed/W2016642098/W2016642098_0.pdf",
+            "data/inputs/color_contrast/passed/W2016642098/W2016642098_1.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2595658205",
+          "title": "Progressive Neural Networks",
+          "year": 2016,
+          "venue": "arXiv",
+          "doi": "10.1145/3034966.3034967",
+          "type": "other",
+          "pdf_path": "data/processed/color_contrast/passed/W2595658205.pdf",
+          "input_pdfs": [
+            "data/inputs/color_contrast/passed/W2595658205/W2595658205_0.pdf",
+            "data/inputs/color_contrast/passed/W2595658205/W2595658205_1.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2642438850",
+          "title": "The 2018 Year in Review for Accessibility at SIGACCESS",
+          "year": 2018,
+          "venue": "Proceedings of the 2018 ACM SIGACCESS Conference on Computers and Accessibility",
+          "doi": "10.1145/3264900.3271574",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/color_contrast/passed/W2642438850.pdf",
+          "input_pdfs": [
+            "data/inputs/color_contrast/passed/W2642438850/W2642438850_0.pdf",
+            "data/inputs/color_contrast/passed/W2642438850/W2642438850_1.pdf"
+          ]
+        }
+      ]
+    },
+    "fonts_readability": {
+      "cannot_tell": [
+        {
+          "openalex_id": "W2772922866",
+          "title": "Visual Accessibility of Text – A Dataset for Quality of Fonts",
+          "year": 2020,
+          "venue": "Proceedings of the 22nd International ACM SIGACCESS Conference on Computers and Accessibility",
+          "doi": "10.1145/3373625.3416954",  
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/fonts_readability/cannot_tell/W2772922866.pdf",
+          "input_pdfs": [
+            "data/inputs/fonts_readability/cannot_tell/W2772922866/W2772922866_0.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2805701040",
+          "title": "Font Connoisseur: Evaluating Font Quality for Visual Accessibility",
+          "year": 2020,
+          "venue": "ACM Transactions on Accessible Computing (TACCESS)",
+          "doi": "10.1145/3411764",
+          "type": "journal-article",
+          "pdf_path": "data/processed/fonts_readability/cannot_tell/W2805701040.pdf",
+          "input_pdfs": [
+            "data/inputs/fonts_readability/cannot_tell/W2805701040/W2805701040_0.pdf",
+            "data/inputs/fonts_readability/cannot_tell/W2805701040/W2805701040_1.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2896131989",
+          "title": "Improving the Legibility of Fonts: Optimization of letter shapes based on eye-tracking data",
+          "year": 2019,
+          "venue": "Transactions on Accessible Computing (TACCESS)",
+          "doi": "10.1145/3306462",
+          "type": "journal-article",
+          "pdf_path": "data/processed/fonts_readability/cannot_tell/W2896131989.pdf",
+          "input_pdfs": [
+            "data/inputs/fonts_readability/cannot_tell/W2896131989/W2896131989_0.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W4235175634",
+          "title": "A Dataset of Dutch and English Signs and Their Accessibility Rankings",
+          "year": 2020,
+          "venue": "Data in Brief",
+          "doi": "10.1016/j.dib.2020.105476",
+          "type": "dataset",
+          "pdf_path": "data/processed/fonts_readability/cannot_tell/W4235175634.pdf",
+          "input_pdfs": [
+            "data/inputs/fonts_readability/cannot_tell/W4235175634/W4235175634_0.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W4283371348",
+          "title": "The role of icon legibility and font readability in perception of user interface content",
+          "year": 2020,
+          "venue": "Proceedings of the 22nd International ACM SIGACCESS Conference on Computers and Accessibility",
+          "doi": "10.1145/3373625.3416972",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/fonts_readability/cannot_tell/W4283371348.pdf",
+          "input_pdfs": [
+            "data/inputs/fonts_readability/cannot_tell/W4283371348/W4283371348_0.pdf"
+          ]
+        }
+      ],
+      "failed": [
+        {
+          "openalex_id": "W2772922866",
+          "title": "Visual Accessibility of Text – A Dataset for Quality of Fonts",
+          "year": 2020,
+          "venue": "Proceedings of the 22nd International ACM SIGACCESS Conference on Computers and Accessibility",
+          "doi": "10.1145/3373625.3416954",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/fonts_readability/failed/W2772922866.pdf",
+          "input_pdfs": [
+            "data/inputs/fonts_readability/failed/W2772922866/W2772922866_0.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2805701040",
+          "title": "Font Connoisseur: Evaluating Font Quality for Visual Accessibility",
+          "year": 2020,
+          "venue": "ACM Transactions on Accessible Computing (TACCESS)",
+          "doi": "10.1145/3411764",
+          "type": "journal-article",
+          "pdf_path": "data/processed/fonts_readability/failed/W2805701040.pdf",
+          "input_pdfs": [
+            "data/inputs/fonts_readability/failed/W2805701040/W2805701040_0.pdf",
+            "data/inputs/fonts_readability/failed/W2805701040/W2805701040_1.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2896131989",
+          "title": "Improving the Legibility of Fonts: Optimization of letter shapes based on eye-tracking data",
+          "year": 2019,
+          "venue": "Transactions on Accessible Computing (TACCESS)",
+          "doi": "10.1145/3306462",
+          "type": "journal-article",
+          "pdf_path": "data/processed/fonts_readability/failed/W2896131989.pdf",
+          "input_pdfs": [
+            "data/inputs/fonts_readability/failed/W2896131989/W2896131989_0.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W4235175634",
+          "title": "A Dataset of Dutch and English Signs and Their Accessibility Rankings",
+          "year": 2020,
+          "venue": "Data in Brief",
+          "doi": "10.1016/j.dib.2020.105476",
+          "type": "dataset",
+          "pdf_path": "data/processed/fonts_readability/failed/W4235175634.pdf",
+          "input_pdfs": [
+            "data/inputs/fonts_readability/failed/W4235175634/W4235175634_0.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W4283371348",
+          "title": "The role of icon legibility and font readability in perception of user interface content",
+          "year": 2020,
+          "venue": "Proceedings of the 22nd International ACM SIGACCESS Conference on Computers and Accessibility",
+          "doi": "10.1145/3373625.3416972",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/fonts_readability/failed/W4283371348.pdf",
+          "input_pdfs": [
+            "data/inputs/fonts_readability/failed/W4283371348/W4283371348_0.pdf"
+          ]
+        }
+      ],
+      "passed": [
+        {
+          "openalex_id": "W2772922866",
+          "title": "Visual Accessibility of Text – A Dataset for Quality of Fonts",
+          "year": 2020,
+          "venue": "Proceedings of the 22nd International ACM SIGACCESS Conference on Computers and Accessibility",
+          "doi": "10.1145/3373625.3416954",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/fonts_readability/passed/W2772922866.pdf",
+          "input_pdfs": [
+            "data/inputs/fonts_readability/passed/W2772922866/W2772922866_0.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2805701040",
+          "title": "Font Connoisseur: Evaluating Font Quality for Visual Accessibility",
+          "year": 2020,
+          "venue": "ACM Transactions on Accessible Computing (TACCESS)",
+          "doi": "10.1145/3411764",
+          "type": "journal-article",
+          "pdf_path": "data/processed/fonts_readability/passed/W2805701040.pdf",
+          "input_pdfs": [
+            "data/inputs/fonts_readability/passed/W2805701040/W2805701040_0.pdf",
+            "data/inputs/fonts_readability/passed/W2805701040/W2805701040_1.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2896131989",
+          "title": "Improving the Legibility of Fonts: Optimization of letter shapes based on eye-tracking data",
+          "year": 2019,
+          "venue": "Transactions on Accessible Computing (TACCESS)",
+          "doi": "10.1145/3306462",
+          "type": "journal-article",
+          "pdf_path": "data/processed/fonts_readability/passed/W2896131989.pdf",
+          "input_pdfs": [
+            "data/inputs/fonts_readability/passed/W2896131989/W2896131989_0.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W4235175634",
+          "title": "A Dataset of Dutch and English Signs and Their Accessibility Rankings",
+          "year": 2020,
+          "venue": "Data in Brief",
+          "doi": "10.1016/j.dib.2020.105476",
+          "type": "dataset",
+          "pdf_path": "data/processed/fonts_readability/passed/W4235175634.pdf",
+          "input_pdfs": [
+            "data/inputs/fonts_readability/passed/W4235175634/W4235175634_0.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W4283371348",
+          "title": "The role of icon legibility and font readability in perception of user interface content",
+          "year": 2020,
+          "venue": "Proceedings of the 22nd International ACM SIGACCESS Conference on Computers and Accessibility",
+          "doi": "10.1145/3373625.3416972",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/fonts_readability/passed/W4283371348.pdf",
+          "input_pdfs": [
+            "data/inputs/fonts_readability/passed/W4283371348/W4283371348_0.pdf"
+          ]
+        }
+      ]
+    },
+    "functional_hyperlinks": {
+      "cannot_tell": [
+        {
+          "openalex_id": "W2893185172",
+          "title": "Gismo: A Toolkit for Navigating Geographic Visualization Storytelling",
+          "year": 2019,
+          "venue": "Proceedings of the ACM on Human-Computer Interaction (PACMHCI)",
+          "doi": "10.1145/3359241",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/functional_hyperlinks/cannot_tell/W2893185172.pdf",
+          "input_pdfs": [
+            "data/inputs/functional_hyperlinks/cannot_tell/W2893185172/W2893185172_0.pdf",
+            "data/inputs/functional_hyperlinks/cannot_tell/W2893185172/W2893185172_1.pdf",
+            "data/inputs/functional_hyperlinks/cannot_tell/W2893185172/W2893185172_2.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2991007371",
+          "title": "A Dataset for Automatic Document-Level Sentiment Analysis",
+          "year": 2019,
+          "venue": "Data in Brief",
+          "doi": "10.1016/j.dib.2019.104134",
+          "type": "dataset",
+          "pdf_path": "data/processed/functional_hyperlinks/cannot_tell/W2991007371.pdf",
+          "input_pdfs": [
+            "data/inputs/functional_hyperlinks/cannot_tell/W2991007371/W2991007371_0.pdf",
+            "data/inputs/functional_hyperlinks/cannot_tell/W2991007371/W2991007371_1.pdf",
+            "data/inputs/functional_hyperlinks/cannot_tell/W2991007371/W2991007371_2.pdf",
+            "data/inputs/functional_hyperlinks/cannot_tell/W2991007371/W2991007371_3.pdf",
+            "data/inputs/functional_hyperlinks/cannot_tell/W2991007371/W2991007371_4.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W3005911753",
+          "title": "Corpus of Japanese Sign Language Storytelling Videos",
+          "year": 2018,
+          "venue": "International Journal of Corpus Linguistics",
+          "doi": "10.1007/s10579-018-9430-1",
+          "type": "journal-article",
+          "pdf_path": "data/processed/functional_hyperlinks/cannot_tell/W3005911753.pdf",
+          "input_pdfs": [
+            "data/inputs/functional_hyperlinks/cannot_tell/W3005911753/W3005911753_0.pdf",
+            "data/inputs/functional_hyperlinks/cannot_tell/W3005911753/W3005911753_1.pdf",
+            "data/inputs/functional_hyperlinks/cannot_tell/W3005911753/W3005911753_2.pdf",
+            "data/inputs/functional_hyperlinks/cannot_tell/W3005911753/W3005911753_3.pdf",
+            "data/inputs/functional_hyperlinks/cannot_tell/W3005911753/W3005911753_4.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W3018272089",
+          "title": "HotPotQA: A Dataset and Human Performance Evaluation for Hotpot Question Answering",
+          "year": 2018,
+          "venue": "arXiv",
+          "doi": "10.1145/3335452.3335453",
+          "type": "dataset",
+          "pdf_path": "data/processed/functional_hyperlinks/cannot_tell/W3018272089.pdf",
+          "input_pdfs": [
+            "data/inputs/functional_hyperlinks/cannot_tell/W3018272089/W3018272089_0.pdf",
+            "data/inputs/functional_hyperlinks/cannot_tell/W3018272089/W3018272089_1.pdf",
+            "data/inputs/functional_hyperlinks/cannot_tell/W3018272089/W3018272089_2.pdf",
+            "data/inputs/functional_hyperlinks/cannot_tell/W3018272089/W3018272089_3.pdf",
+            "data/inputs/functional_hyperlinks/cannot_tell/W3018272089/W3018272089_4.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W3069372847",
+          "title": "A Dataset of Visual Fixations to Faces in News Video",
+          "year": 2020,
+          "venue": "IEEE Transactions on Multimedia",
+          "doi": "10.1109/TMM.2020.2967604",
+          "type": "journal-article",
+          "pdf_path": "data/processed/functional_hyperlinks/cannot_tell/W3069372847.pdf",
+          "input_pdfs": [
+            "data/inputs/functional_hyperlinks/cannot_tell/W3069372847/W3069372847_0.pdf",
+            "data/inputs/functional_hyperlinks/cannot_tell/W3069372847/W3069372847_1.pdf",
+            "data/inputs/functional_hyperlinks/cannot_tell/W3069372847/W3069372847_2.pdf",
+            "data/inputs/functional_hyperlinks/cannot_tell/W3069372847/W3069372847_3.pdf"
+          ]
+        }
+      ],
+      "failed": [
+        {
+          "openalex_id": "W2893185172",
+          "title": "Gismo: A Toolkit for Navigating Geographic Visualization Storytelling",
+          "year": 2019,
+          "venue": "Proceedings of the ACM on Human-Computer Interaction (PACMHCI)",
+          "doi": "10.1145/3359241",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/functional_hyperlinks/failed/W2893185172.pdf",
+          "input_pdfs": [
+            "data/inputs/functional_hyperlinks/failed/W2893185172/W2893185172_0.pdf",
+            "data/inputs/functional_hyperlinks/failed/W2893185172/W2893185172_1.pdf",
+            "data/inputs/functional_hyperlinks/failed/W2893185172/W2893185172_2.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2991007371",
+          "title": "A Dataset for Automatic Document-Level Sentiment Analysis",
+          "year": 2019,
+          "venue": "Data in Brief",
+          "doi": "10.1016/j.dib.2019.104134",
+          "type": "dataset",
+          "pdf_path": "data/processed/functional_hyperlinks/failed/W2991007371.pdf",
+          "input_pdfs": [
+            "data/inputs/functional_hyperlinks/failed/W2991007371/W2991007371_0.pdf",
+            "data/inputs/functional_hyperlinks/failed/W2991007371/W2991007371_1.pdf",
+            "data/inputs/functional_hyperlinks/failed/W2991007371/W2991007371_2.pdf",
+            "data/inputs/functional_hyperlinks/failed/W2991007371/W2991007371_3.pdf",
+            "data/inputs/functional_hyperlinks/failed/W2991007371/W2991007371_4.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W3005911753",
+          "title": "Corpus of Japanese Sign Language Storytelling Videos",
+          "year": 2018,
+          "venue": "International Journal of Corpus Linguistics",
+          "doi": "10.1007/s10579-018-9430-1",
+          "type": "journal-article",
+          "pdf_path": "data/processed/functional_hyperlinks/failed/W3005911753.pdf",
+          "input_pdfs": [
+            "data/inputs/functional_hyperlinks/failed/W3005911753/W3005911753_0.pdf",
+            "data/inputs/functional_hyperlinks/failed/W3005911753/W3005911753_1.pdf",
+            "data/inputs/functional_hyperlinks/failed/W3005911753/W3005911753_2.pdf",
+            "data/inputs/functional_hyperlinks/failed/W3005911753/W3005911753_3.pdf",
+            "data/inputs/functional_hyperlinks/failed/W3005911753/W3005911753_4.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W3018272089",
+          "title": "HotPotQA: A Dataset and Human Performance Evaluation for Hotpot Question Answering",
+          "year": 2018,
+          "venue": "arXiv",
+          "doi": "10.1145/3335452.3335453",
+          "type": "dataset",
+          "pdf_path": "data/processed/functional_hyperlinks/failed/W3018272089.pdf",
+          "input_pdfs": [
+            "data/inputs/functional_hyperlinks/failed/W3018272089/W3018272089_0.pdf",
+            "data/inputs/functional_hyperlinks/failed/W3018272089/W3018272089_1.pdf",
+            "data/inputs/functional_hyperlinks/failed/W3018272089/W3018272089_2.pdf",
+            "data/inputs/functional_hyperlinks/failed/W3018272089/W3018272089_3.pdf",
+            "data/inputs/functional_hyperlinks/failed/W3018272089/W3018272089_4.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W3069372847",
+          "title": "A Dataset of Visual Fixations to Faces in News Video",
+          "year": 2020,
+          "venue": "IEEE Transactions on Multimedia",
+          "doi": "10.1109/TMM.2020.2967604",
+          "type": "journal-article",
+          "pdf_path": "data/processed/functional_hyperlinks/failed/W3069372847.pdf",
+          "input_pdfs": [
+            "data/inputs/functional_hyperlinks/failed/W3069372847/W3069372847_0.pdf",
+            "data/inputs/functional_hyperlinks/failed/W3069372847/W3069372847_1.pdf",
+            "data/inputs/functional_hyperlinks/failed/W3069372847/W3069372847_2.pdf",
+            "data/inputs/functional_hyperlinks/failed/W3069372847/W3069372847_3.pdf"
+          ]
+        }
+      ],
+      "not_present": [
+        {
+          "openalex_id": "W2893185172",
+          "title": "Gismo: A Toolkit for Navigating Geographic Visualization Storytelling",
+          "year": 2019,
+          "venue": "Proceedings of the ACM on Human-Computer Interaction (PACMHCI)",
+          "doi": "10.1145/3359241",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/functional_hyperlinks/not_present/W2893185172.pdf",
+          "input_pdfs": [
+            "data/inputs/functional_hyperlinks/not_present/W2893185172/W2893185172_0.pdf",
+            "data/inputs/functional_hyperlinks/not_present/W2893185172/W2893185172_1.pdf",
+            "data/inputs/functional_hyperlinks/not_present/W2893185172/W2893185172_2.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2991007371",
+          "title": "A Dataset for Automatic Document-Level Sentiment Analysis",
+          "year": 2019,
+          "venue": "Data in Brief",
+          "doi": "10.1016/j.dib.2019.104134",
+          "type": "dataset",
+          "pdf_path": "data/processed/functional_hyperlinks/not_present/W2991007371.pdf",
+          "input_pdfs": [
+            "data/inputs/functional_hyperlinks/not_present/W2991007371/W2991007371_0.pdf",
+            "data/inputs/functional_hyperlinks/not_present/W2991007371/W2991007371_1.pdf",
+            "data/inputs/functional_hyperlinks/not_present/W2991007371/W2991007371_2.pdf",
+            "data/inputs/functional_hyperlinks/not_present/W2991007371/W2991007371_3.pdf",
+            "data/inputs/functional_hyperlinks/not_present/W2991007371/W2991007371_4.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W3005911753",
+          "title": "Corpus of Japanese Sign Language Storytelling Videos",
+          "year": 2018,
+          "venue": "International Journal of Corpus Linguistics",
+          "doi": "10.1007/s10579-018-9430-1",
+          "type": "journal-article",
+          "pdf_path": "data/processed/functional_hyperlinks/not_present/W3005911753.pdf",
+          "input_pdfs": [
+            "data/inputs/functional_hyperlinks/not_present/W3005911753/W3005911753_0.pdf",
+            "data/inputs/functional_hyperlinks/not_present/W3005911753/W3005911753_1.pdf",
+            "data/inputs/functional_hyperlinks/not_present/W3005911753/W3005911753_2.pdf",
+            "data/inputs/functional_hyperlinks/not_present/W3005911753/W3005911753_3.pdf",
+            "data/inputs/functional_hyperlinks/not_present/W3005911753/W3005911753_4.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W3018272089",
+          "title": "HotPotQA: A Dataset and Human Performance Evaluation for Hotpot Question Answering",
+          "year": 2018,
+          "venue": "arXiv",
+          "doi": "10.1145/3335452.3335453",
+          "type": "dataset",
+          "pdf_path": "data/processed/functional_hyperlinks/not_present/W3018272089.pdf",
+          "input_pdfs": [
+            "data/inputs/functional_hyperlinks/not_present/W3018272089/W3018272089_0.pdf",
+            "data/inputs/functional_hyperlinks/not_present/W3018272089/W3018272089_1.pdf",
+            "data/inputs/functional_hyperlinks/not_present/W3018272089/W3018272089_2.pdf",
+            "data/inputs/functional_hyperlinks/not_present/W3018272089/W3018272089_3.pdf",
+            "data/inputs/functional_hyperlinks/not_present/W3018272089/W3018272089_4.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W3069372847",
+          "title": "A Dataset of Visual Fixations to Faces in News Video",
+          "year": 2020,
+          "venue": "IEEE Transactions on Multimedia",
+          "doi": "10.1109/TMM.2020.2967604",
+          "open_access": "open",
+          "type": "journal-article",
+          "pdf_path": "data/processed/functional_hyperlinks/not_present/W3069372847.pdf",
+          "input_pdfs": [
+            "data/inputs/functional_hyperlinks/not_present/W3069372847/W3069372847_0.pdf",
+            "data/inputs/functional_hyperlinks/not_present/W3069372847/W3069372847_1.pdf",
+            "data/inputs/functional_hyperlinks/not_present/W3069372847/W3069372847_2.pdf",
+            "data/inputs/functional_hyperlinks/not_present/W3069372847/W3069372847_3.pdf"
+          ]
+        }
+      ],
+      "passed": [
+        {
+          "openalex_id": "W2893185172",
+          "title": "Gismo: A Toolkit for Navigating Geographic Visualization Storytelling",
+          "year": 2019,
+          "venue": "Proceedings of the ACM on Human-Computer Interaction (PACMHCI)",
+          "doi": "10.1145/3359241",
+          "open_access": "open",
+          "type": "proceedings-article",
+          "total_compliance": 5.0,
+          "pdf_path": "data/processed/functional_hyperlinks/passed/W2893185172.pdf",
+          "input_pdfs": [
+            "data/inputs/functional_hyperlinks/passed/W2893185172/W2893185172_0.pdf",
+            "data/inputs/functional_hyperlinks/passed/W2893185172/W2893185172_1.pdf",
+            "data/inputs/functional_hyperlinks/passed/W2893185172/W2893185172_2.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2991007371",
+          "title": "A Dataset for Automatic Document-Level Sentiment Analysis",
+          "year": 2019,
+          "venue": "Data in Brief",
+          "doi": "10.1016/j.dib.2019.104134",
+          "open_access": "open",
+          "type": "dataset",
+          "pdf_path": "data/processed/functional_hyperlinks/passed/W2991007371.pdf",
+          "input_pdfs": [
+            "data/inputs/functional_hyperlinks/passed/W2991007371/W2991007371_0.pdf",
+            "data/inputs/functional_hyperlinks/passed/W2991007371/W2991007371_1.pdf",
+            "data/inputs/functional_hyperlinks/passed/W2991007371/W2991007371_2.pdf",
+            "data/inputs/functional_hyperlinks/passed/W2991007371/W2991007371_3.pdf",
+            "data/inputs/functional_hyperlinks/passed/W2991007371/W2991007371_4.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W3005911753",
+          "title": "Corpus of Japanese Sign Language Storytelling Videos",
+          "year": 2018,
+          "venue": "International Journal of Corpus Linguistics",
+          "doi": "10.1007/s10579-018-9430-1",
+          "open_access": "open",
+          "type": "journal-article",
+          "pdf_path": "data/processed/functional_hyperlinks/passed/W3005911753.pdf",
+          "input_pdfs": [
+            "data/inputs/functional_hyperlinks/passed/W3005911753/W3005911753_0.pdf",
+            "data/inputs/functional_hyperlinks/passed/W3005911753/W3005911753_1.pdf",
+            "data/inputs/functional_hyperlinks/passed/W3005911753/W3005911753_2.pdf",
+            "data/inputs/functional_hyperlinks/passed/W3005911753/W3005911753_3.pdf",
+            "data/inputs/functional_hyperlinks/passed/W3005911753/W3005911753_4.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W3018272089",
+          "title": "HotPotQA: A Dataset and Human Performance Evaluation for Hotpot Question Answering",
+          "year": 2018,
+          "venue": "arXiv",
+          "doi": "10.1145/3335452.3335453",
+          "open_access": "open",
+          "type": "dataset",
+          "pdf_path": "data/processed/functional_hyperlinks/passed/W3018272089.pdf",
+          "input_pdfs": [
+            "data/inputs/functional_hyperlinks/passed/W3018272089/W3018272089_0.pdf",
+            "data/inputs/functional_hyperlinks/passed/W3018272089/W3018272089_1.pdf",
+            "data/inputs/functional_hyperlinks/passed/W3018272089/W3018272089_2.pdf",
+            "data/inputs/functional_hyperlinks/passed/W3018272089/W3018272089_3.pdf",
+            "data/inputs/functional_hyperlinks/passed/W3018272089/W3018272089_4.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W3069372847",
+          "title": "A Dataset of Visual Fixations to Faces in News Video",
+          "year": 2020,
+          "venue": "IEEE Transactions on Multimedia",
+          "doi": "10.1109/TMM.2020.2967604",
+          "open_access": "open",
+          "type": "journal-article",
+          "pdf_path": "data/processed/functional_hyperlinks/passed/W3069372847.pdf",
+          "input_pdfs": [
+            "data/inputs/functional_hyperlinks/passed/W3069372847/W3069372847_0.pdf",
+            "data/inputs/functional_hyperlinks/passed/W3069372847/W3069372847_1.pdf",
+            "data/inputs/functional_hyperlinks/passed/W3069372847/W3069372847_2.pdf",
+            "data/inputs/functional_hyperlinks/passed/W3069372847/W3069372847_3.pdf"
+          ]
+        }
+      ]
+    },
+    "logical_reading_order": {
+      "cannot_tell": [
+        {
+          "openalex_id": "W2004322054",
+          "title": "Dataset for comparing readability of English news articles",
+          "year": 2020,
+          "venue": "Proceedings of the 22nd International ACM SIGACCESS Conference on Computers and Accessibility",
+          "doi": "10.1145/3373625.3416921",
+          
+          "type": "proceedings-article",
+          "total_compliance": 4.0,
+          "normalized_compliance": 0.5,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/logical_reading_order/cannot_tell/W2004322054.pdf",
+          "input_pdfs": [
+            "data/inputs/logical_reading_order/cannot_tell/W2004322054/W2004322054_0.pdf",
+            "data/inputs/logical_reading_order/cannot_tell/W2004322054/W2004322054_1.pdf",
+            "data/inputs/logical_reading_order/cannot_tell/W2004322054/W2004322054_2.pdf",
+            "data/inputs/logical_reading_order/cannot_tell/W2004322054/W2004322054_3.pdf",
+            "data/inputs/logical_reading_order/cannot_tell/W2004322054/W2004322054_4.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2039213038",
+          "title": "AR-Text: A Dataset of Text Annotations for Augmented Reality",
+          "year": 2019,
+          "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
+          "doi": "10.1145/3351237",
+          "open_access": "open",
+          "type": "proceedings-article",
+          "total_compliance": 4.0,
+          "normalized_compliance": 0.5,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/logical_reading_order/cannot_tell/W2039213038.pdf",
+          "input_pdfs": [
+            "data/inputs/logical_reading_order/cannot_tell/W2039213038/W2039213038_0.pdf",
+            "data/inputs/logical_reading_order/cannot_tell/W2039213038/W2039213038_1.pdf",
+            "data/inputs/logical_reading_order/cannot_tell/W2039213038/W2039213038_2.pdf",
+            "data/inputs/logical_reading_order/cannot_tell/W2039213038/W2039213038_3.pdf",
+            "data/inputs/logical_reading_order/cannot_tell/W2039213038/W2039213038_4.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2510625382",
+          "title": "Visual Design and Color of Flagships and Vans",
+          "year": 2020,
+          "venue": "ACM International Conference Proceeding Series (Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining)",
+          "doi": "10.1145/3394171.3413175",
+          
+          "type": "proceedings-article",
+          "total_compliance": 4.0,
+          "normalized_compliance": 0.5,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/logical_reading_order/cannot_tell/W2510625382.pdf",
+          "input_pdfs": [
+            "data/inputs/logical_reading_order/cannot_tell/W2510625382/W2510625382_0.pdf",
+            "data/inputs/logical_reading_order/cannot_tell/W2510625382/W2510625382_1.pdf",
+            "data/inputs/logical_reading_order/cannot_tell/W2510625382/W2510625382_2.pdf",
+            "data/inputs/logical_reading_order/cannot_tell/W2510625382/W2510625382_3.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2953207266",
+          "title": "A Dataset for Accessibility Text Classification in Science News",
+          "year": 2019,
+          "venue": "Journal of Visualization",
+          "doi": "10.1007/s12650-019-00594-z",
+          
+          "type": "journal-article",
+          "total_compliance": 4.0,
+          "normalized_compliance": 0.5,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/logical_reading_order/cannot_tell/W2953207266.pdf",
+          "input_pdfs": [
+            "data/inputs/logical_reading_order/cannot_tell/W2953207266/W2953207266_0.pdf",
+            "data/inputs/logical_reading_order/cannot_tell/W2953207266/W2953207266_1.pdf",
+            "data/inputs/logical_reading_order/cannot_tell/W2953207266/W2953207266_2.pdf",
+            "data/inputs/logical_reading_order/cannot_tell/W2953207266/W2953207266_3.pdf",
+            "data/inputs/logical_reading_order/cannot_tell/W2953207266/W2953207266_4.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W4230438091",
+          "title": "Accessibility Data for the Workflow of Designing Web Interfaces",
+          "year": 2020,
+          "venue": "Data in Brief",
+          "doi": "10.1016/j.dib.2020.106166",
+          
+          "type": "dataset",
+          "total_compliance": 4.0,
+          "normalized_compliance": 0.5,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/logical_reading_order/cannot_tell/W4230438091.pdf",
+          "input_pdfs": [
+            "data/inputs/logical_reading_order/cannot_tell/W4230438091/W4230438091_0.pdf",
+            "data/inputs/logical_reading_order/cannot_tell/W4230438091/W4230438091_1.pdf"
+          ]
+        }
+      ],
+      "failed": [
+        {
+          "openalex_id": "W2004322054",
+          "title": "Dataset for comparing readability of English news articles",
+          "year": 2020,
+          "venue": "Proceedings of the 22nd International ACM SIGACCESS Conference on Computers and Accessibility",
+          "doi": "10.1145/3373625.3416921",
+          
+          "type": "proceedings-article",
+          "total_compliance": 3.0,
+          "normalized_compliance": 0.375,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/logical_reading_order/failed/W2004322054.pdf",
+          "input_pdfs": [
+            "data/inputs/logical_reading_order/failed/W2004322054/W2004322054_0.pdf",
+            "data/inputs/logical_reading_order/failed/W2004322054/W2004322054_1.pdf",
+            "data/inputs/logical_reading_order/failed/W2004322054/W2004322054_2.pdf",
+            "data/inputs/logical_reading_order/failed/W2004322054/W2004322054_3.pdf",
+            "data/inputs/logical_reading_order/failed/W2004322054/W2004322054_4.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2039213038",
+          "title": "AR-Text: A Dataset of Text Annotations for Augmented Reality",
+          "year": 2019,
+          "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
+          "doi": "10.1145/3351237",
+          "open_access": "open",
+          "type": "proceedings-article",
+          "total_compliance": 3.0,
+          "normalized_compliance": 0.375,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/logical_reading_order/failed/W2039213038.pdf",
+          "input_pdfs": [
+            "data/inputs/logical_reading_order/failed/W2039213038/W2039213038_0.pdf",
+            "data/inputs/logical_reading_order/failed/W2039213038/W2039213038_1.pdf",
+            "data/inputs/logical_reading_order/failed/W2039213038/W2039213038_2.pdf",
+            "data/inputs/logical_reading_order/failed/W2039213038/W2039213038_3.pdf",
+            "data/inputs/logical_reading_order/failed/W2039213038/W2039213038_4.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2510625382",
+          "title": "Visual Design and Color of Flagships and Vans",
+          "year": 2020,
+          "venue": "ACM International Conference Proceeding Series (Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining)",
+          "doi": "10.1145/3394171.3413175",
+          
+          "type": "proceedings-article",
+          "total_compliance": 3.0,
+          "normalized_compliance": 0.375,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/logical_reading_order/failed/W2510625382.pdf",
+          "input_pdfs": [
+            "data/inputs/logical_reading_order/failed/W2510625382/W2510625382_0.pdf",
+            "data/inputs/logical_reading_order/failed/W2510625382/W2510625382_1.pdf",
+            "data/inputs/logical_reading_order/failed/W2510625382/W2510625382_2.pdf",
+            "data/inputs/logical_reading_order/failed/W2510625382/W2510625382_3.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2953207266",
+          "title": "A Dataset for Accessibility Text Classification in Science News",
+          "year": 2019,
+          "venue": "Journal of Visualization",
+          "doi": "10.1007/s12650-019-00594-z",
+          
+          "type": "journal-article",
+          "total_compliance": 3.0,
+          "normalized_compliance": 0.375,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/logical_reading_order/failed/W2953207266.pdf",
+          "input_pdfs": [
+            "data/inputs/logical_reading_order/failed/W2953207266/W2953207266_0.pdf",
+            "data/inputs/logical_reading_order/failed/W2953207266/W2953207266_1.pdf",
+            "data/inputs/logical_reading_order/failed/W2953207266/W2953207266_2.pdf",
+            "data/inputs/logical_reading_order/failed/W2953207266/W2953207266_3.pdf",
+            "data/inputs/logical_reading_order/failed/W2953207266/W2953207266_4.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W4230438091",
+          "title": "Accessibility Data for the Workflow of Designing Web Interfaces",
+          "year": 2020,
+          "venue": "Data in Brief",
+          "doi": "10.1016/j.dib.2020.106166",
+          
+          "type": "dataset",
+          "total_compliance": 3.0,
+          "normalized_compliance": 0.375,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/logical_reading_order/failed/W4230438091.pdf",
+          "input_pdfs": [
+            "data/inputs/logical_reading_order/failed/W4230438091/W4230438091_0.pdf",
+            "data/inputs/logical_reading_order/failed/W4230438091/W4230438091_1.pdf"
+          ]
+        }
+      ],
+      "passed": [
+        {
+          "openalex_id": "W2004322054",
+          "title": "Dataset for comparing readability of English news articles",
+          "year": 2020,
+          "venue": "Proceedings of the 22nd International ACM SIGACCESS Conference on Computers and Accessibility",
+          "doi": "10.1145/3373625.3416921",
+          
+          "type": "proceedings-article",
+          "total_compliance": 4.0,
+          "normalized_compliance": 0.5,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/logical_reading_order/passed/W2004322054.pdf",
+          "input_pdfs": [
+            "data/inputs/logical_reading_order/passed/W2004322054/W2004322054_0.pdf",
+            "data/inputs/logical_reading_order/passed/W2004322054/W2004322054_1.pdf",
+            "data/inputs/logical_reading_order/passed/W2004322054/W2004322054_2.pdf",
+            "data/inputs/logical_reading_order/passed/W2004322054/W2004322054_3.pdf",
+            "data/inputs/logical_reading_order/passed/W2004322054/W2004322054_4.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2039213038",
+          "title": "AR-Text: A Dataset of Text Annotations for Augmented Reality",
+          "year": 2019,
+          "venue": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
+          "doi": "10.1145/3351237",
+          "open_access": "open",
+          "type": "proceedings-article",
+          "total_compliance": 4.0,
+          "normalized_compliance": 0.5,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/logical_reading_order/passed/W2039213038.pdf",
+          "input_pdfs": [
+            "data/inputs/logical_reading_order/passed/W2039213038/W2039213038_0.pdf",
+            "data/inputs/logical_reading_order/passed/W2039213038/W2039213038_1.pdf",
+            "data/inputs/logical_reading_order/passed/W2039213038/W2039213038_2.pdf",
+            "data/inputs/logical_reading_order/passed/W2039213038/W2039213038_3.pdf",
+            "data/inputs/logical_reading_order/passed/W2039213038/W2039213038_4.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2510625382",
+          "title": "Visual Design and Color of Flagships and Vans",
+          "year": 2020,
+          "venue": "ACM International Conference Proceeding Series (Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining)",
+          "doi": "10.1145/3394171.3413175",
+          
+          "type": "proceedings-article",
+          "total_compliance": 4.0,
+          "normalized_compliance": 0.5,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/logical_reading_order/passed/W2510625382.pdf",
+          "input_pdfs": [
+            "data/inputs/logical_reading_order/passed/W2510625382/W2510625382_0.pdf",
+            "data/inputs/logical_reading_order/passed/W2510625382/W2510625382_1.pdf",
+            "data/inputs/logical_reading_order/passed/W2510625382/W2510625382_2.pdf",
+            "data/inputs/logical_reading_order/passed/W2510625382/W2510625382_3.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2953207266",
+          "title": "A Dataset for Accessibility Text Classification in Science News",
+          "year": 2019,
+          "venue": "Journal of Visualization",
+          "doi": "10.1007/s12650-019-00594-z",
+          
+          "type": "journal-article",
+          "total_compliance": 4.0,
+          "normalized_compliance": 0.5,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/logical_reading_order/passed/W2953207266.pdf",
+          "input_pdfs": [
+            "data/inputs/logical_reading_order/passed/W2953207266/W2953207266_0.pdf",
+            "data/inputs/logical_reading_order/passed/W2953207266/W2953207266_1.pdf",
+            "data/inputs/logical_reading_order/passed/W2953207266/W2953207266_2.pdf",
+            "data/inputs/logical_reading_order/passed/W2953207266/W2953207266_3.pdf",
+            "data/inputs/logical_reading_order/passed/W2953207266/W2953207266_4.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W4230438091",
+          "title": "Accessibility Data for the Workflow of Designing Web Interfaces",
+          "year": 2020,
+          "venue": "Data in Brief",
+          "doi": "10.1016/j.dib.2020.106166",
+          
+          "type": "dataset",
+          "total_compliance": 4.0,
+          "normalized_compliance": 0.5,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/logical_reading_order/passed/W4230438091.pdf",
+          "input_pdfs": [
+            "data/inputs/logical_reading_order/passed/W4230438091/W4230438091_0.pdf",
+            "data/inputs/logical_reading_order/passed/W4230438091/W4230438091_1.pdf"
+          ]
+        }
+      ]
+    },
+    "semantic_tagging": {
+      "cannot_tell": [
+        {
+          "openalex_id": "W2067815167",
+          "title": "Open-AI’s GPT-3: Advent of general-purpose artificial intelligence or another hype cycle?",
+          "year": 2020,
+          "venue": "arXiv",
+          "doi": "10.1145/3377811.3380387",
+          "open_access": "open",
+          "type": "other",
+          "total_compliance": 4.0,
+          "normalized_compliance": 0.5,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/semantic_tagging/cannot_tell/W2067815167.pdf",
+          "input_pdfs": []
+        },
+        {
+          "openalex_id": "W2390023818",
+          "title": "Enhancing Low-Resource Cross-Document Summarization",
+          "year": 2019,
+          "venue": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+          "doi": "10.1145/3397271.3401270",
+          
+          "type": "proceedings-article",
+          "total_compliance": 4.0,
+          "normalized_compliance": 0.5,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/semantic_tagging/cannot_tell/W2390023818.pdf",
+          "input_pdfs": []
+        },
+        {
+          "openalex_id": "W2895738059",
+          "title": "A2D2: The Augsburg annotated driving dataset",
+          "year": 2017,
+          "venue": "IEEE Intelligent Vehicles Symposium",
+          "doi": "10.1145/1008061.1008062",
+          "open_access": "open",
+          "type": "conference-proceedings",
+          "total_compliance": 4.0,
+          "normalized_compliance": 0.5,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/semantic_tagging/cannot_tell/W2895738059.pdf",
+          "input_pdfs": []
+        },
+        {
+          "openalex_id": "W2951147986",
+          "title": "WIDER FACE: A Face Detection Benchmark",
+          "year": 2016,
+          "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+          "doi": "10.1109/CVPR.2016.90",
+          "open_access": "open",
+          "type": "proceedings-article",
+          "total_compliance": 4.0,
+          "normalized_compliance": 0.5,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/semantic_tagging/cannot_tell/W2951147986.pdf",
+          "input_pdfs": []
+        },
+        {
+          "openalex_id": "W984760328",
+          "title": "Learning Commonsense and Social Dynamics from a Year of Tweets",
+          "year": 2015,
+          "venue": "Proceedings of the 26th International Joint Conference on Artificial Intelligence",
+          "doi": "10.1145/2892544.2892685",
+          
+          "type": "proceedings-article",
+          "total_compliance": 4.0,
+          "normalized_compliance": 0.5,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/semantic_tagging/cannot_tell/W984760328.pdf",
+          "input_pdfs": []
+        }
+      ],
+      "failed": [
+        {
+          "openalex_id": "W2067815167",
+          "title": "Open-AI’s GPT-3: Advent of general-purpose artificial intelligence or another hype cycle?",
+          "year": 2020,
+          "venue": "arXiv",
+          "doi": "10.1145/3377811.3380387",
+          "open_access": "open",
+          "type": "other",
+          "total_compliance": 3.0,
+          "normalized_compliance": 0.375,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/semantic_tagging/failed/W2067815167.pdf",
+          "input_pdfs": []
+        },
+        {
+          "openalex_id": "W2390023818",
+          "title": "Enhancing Low-Resource Cross-Document Summarization",
+          "year": 2019,
+          "venue": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+          "doi": "10.1145/3397271.3401270",
+          
+          "type": "proceedings-article",
+          "total_compliance": 3.0,
+          "normalized_compliance": 0.375,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/semantic_tagging/failed/W2390023818.pdf",
+          "input_pdfs": []
+        },
+        {
+          "openalex_id": "W2895738059",
+          "title": "A2D2: The Augsburg annotated driving dataset",
+          "year": 2017,
+          "venue": "IEEE Intelligent Vehicles Symposium",
+          "doi": "10.1145/1008061.1008062",
+          "open_access": "open",
+          "type": "conference-proceedings",
+          "total_compliance": 3.0,
+          "normalized_compliance": 0.375,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/semantic_tagging/failed/W2895738059.pdf",
+          "input_pdfs": []
+        },
+        {
+          "openalex_id": "W2951147986",
+          "title": "WIDER FACE: A Face Detection Benchmark",
+          "year": 2016,
+          "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+          "doi": "10.1109/CVPR.2016.90",
+          "open_access": "open",
+          "type": "proceedings-article",
+          "total_compliance": 3.0,
+          "normalized_compliance": 0.375,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/semantic_tagging/failed/W2951147986.pdf",
+          "input_pdfs": []
+        },
+        {
+          "openalex_id": "W984760328",
+          "title": "Learning Commonsense and Social Dynamics from a Year of Tweets",
+          "year": 2015,
+          "venue": "Proceedings of the 26th International Joint Conference on Artificial Intelligence",
+          "doi": "10.1145/2892544.2892685",
+          
+          "type": "proceedings-article",
+          "total_compliance": 3.0,
+          "normalized_compliance": 0.375,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/semantic_tagging/failed/W984760328.pdf",
+          "input_pdfs": []
+        }
+      ],
+      "not_present": [
+        {
+          "openalex_id": "W2067815167",
+          "title": "Open-AI’s GPT-3: Advent of general-purpose artificial intelligence or another hype cycle?",
+          "year": 2020,
+          "venue": "arXiv",
+          "doi": "10.1145/3377811.3380387",
+          "open_access": "open",
+          "type": "other",
+          "total_compliance": 3.0,
+          "normalized_compliance": 0.375,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/semantic_tagging/not_present/W2067815167.pdf",
+          "input_pdfs": []
+        },
+        {
+          "openalex_id": "W2390023818",
+          "title": "Enhancing Low-Resource Cross-Document Summarization",
+          "year": 2019,
+          "venue": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+          "doi": "10.1145/3397271.3401270",
+          
+          "type": "proceedings-article",
+          "total_compliance": 3.0,
+          "normalized_compliance": 0.375,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/semantic_tagging/not_present/W2390023818.pdf",
+          "input_pdfs": []
+        },
+        {
+          "openalex_id": "W2895738059",
+          "title": "A2D2: The Augsburg annotated driving dataset",
+          "year": 2017,
+          "venue": "IEEE Intelligent Vehicles Symposium",
+          "doi": "10.1145/1008061.1008062",
+          "open_access": "open",
+          "type": "conference-proceedings",
+          "total_compliance": 3.0,
+          "normalized_compliance": 0.375,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/semantic_tagging/not_present/W2895738059.pdf",
+          "input_pdfs": []
+        },
+        {
+          "openalex_id": "W2951147986",
+          "title": "WIDER FACE: A Face Detection Benchmark",
+          "year": 2016,
+          "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+          "doi": "10.1109/CVPR.2016.90",
+          "open_access": "open",
+          "type": "proceedings-article",
+          "total_compliance": 3.0,
+          "normalized_compliance": 0.375,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/semantic_tagging/not_present/W2951147986.pdf",
+          "input_pdfs": []
+        },
+        {
+          "openalex_id": "W984760328",
+          "title": "Learning Commonsense and Social Dynamics from a Year of Tweets",
+          "year": 2015,
+          "venue": "Proceedings of the 26th International Joint Conference on Artificial Intelligence",
+          "doi": "10.1145/2892544.2892685",
+          
+          "type": "proceedings-article",
+          "total_compliance": 3.0,
+          "normalized_compliance": 0.375,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/semantic_tagging/not_present/W984760328.pdf",
+          "input_pdfs": []
+        }
+      ],
+      "passed": [
+        {
+          "openalex_id": "W2067815167",
+          "title": "Open-AI’s GPT-3: Advent of general-purpose artificial intelligence or another hype cycle?",
+          "year": 2020,
+          "venue": "arXiv",
+          "doi": "10.1145/3377811.3380387",
+          "open_access": "open",
+          "type": "other",
+          "total_compliance": 4.0,
+          "normalized_compliance": 0.5,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/semantic_tagging/passed/W2067815167.pdf",
+          "input_pdfs": []
+        },
+        {
+          "openalex_id": "W2390023818",
+          "title": "Enhancing Low-Resource Cross-Document Summarization",
+          "year": 2019,
+          "venue": "International ACM SIGIR Conference on Research and Development in Information Retrieval",
+          "doi": "10.1145/3397271.3401270",
+          
+          "type": "proceedings-article",
+          "total_compliance": 4.0,
+          "normalized_compliance": 0.5,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/semantic_tagging/passed/W2390023818.pdf",
+          "input_pdfs": []
+        },
+        {
+          "openalex_id": "W2895738059",
+          "title": "A2D2: The Augsburg annotated driving dataset",
+          "year": 2017,
+          "venue": "IEEE Intelligent Vehicles Symposium",
+          "doi": "10.1145/1008061.1008062",
+          "open_access": "open",
+          "type": "conference-proceedings",
+          "total_compliance": 4.0,
+          "normalized_compliance": 0.5,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/semantic_tagging/passed/W2895738059.pdf",
+          "input_pdfs": []
+        },
+        {
+          "openalex_id": "W2951147986",
+          "title": "WIDER FACE: A Face Detection Benchmark",
+          "year": 2016,
+          "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+          "doi": "10.1109/CVPR.2016.90",
+          "open_access": "open",
+          "type": "proceedings-article",
+          "total_compliance": 4.0,
+          "normalized_compliance": 0.5,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/semantic_tagging/passed/W2951147986.pdf",
+          "input_pdfs": []
+        },
+        {
+          "openalex_id": "W984760328",
+          "title": "Learning Commonsense and Social Dynamics from a Year of Tweets",
+          "year": 2015,
+          "venue": "Proceedings of the 26th International Joint Conference on Artificial Intelligence",
+          "doi": "10.1145/2892544.2892685",
+          
+          "type": "proceedings-article",
+          "total_compliance": 4.0,
+          "normalized_compliance": 0.5,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/semantic_tagging/passed/W984760328.pdf",
+          "input_pdfs": []
+        }
+      ]
+    },
+    "table_structure": {
+      "cannot_tell": [
+        {
+          "openalex_id": "W1974692547",
+          "title": "ATACC: Accessible Textbooks Across an Academic Curriculum",
+          "year": 2018,
+          "venue": "Proceedings of the 20th International ACM SIGACCESS Conference on Computers and Accessibility",
+          "doi": "10.1145/3234695.3236289",
+          
+          "type": "proceedings-article",
+          "total_compliance": 4.0,
+          "normalized_compliance": 0.5,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/table_structure/cannot_tell/W1974692547.pdf",
+          "input_pdfs": [
+            "data/inputs/table_structure/cannot_tell/W1974692547/W1974692547_0.pdf",
+            "data/inputs/table_structure/cannot_tell/W1974692547/W1974692547_1.pdf",
+            "data/inputs/table_structure/cannot_tell/W1974692547/W1974692547_2.pdf",
+            "data/inputs/table_structure/cannot_tell/W1974692547/W1974692547_3.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2296421107",
+          "title": "DOC: A Page Object Dataset for Visual Document Understanding",
+          "year": 2020,
+          "venue": "European Conference on Computer Vision (ECCV)",
+          "doi": "10.1109/CVPR42703.2020.00140",
+          "open_access": "open",
+          "type": "proceedings-article",
+          "total_compliance": 4.0,
+          "normalized_compliance": 0.5,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/table_structure/cannot_tell/W2296421107.pdf",
+          "input_pdfs": [
+            "data/inputs/table_structure/cannot_tell/W2296421107/W2296421107_0.pdf",
+            "data/inputs/table_structure/cannot_tell/W2296421107/W2296421107_1.pdf",
+            "data/inputs/table_structure/cannot_tell/W2296421107/W2296421107_2.pdf",
+            "data/inputs/table_structure/cannot_tell/W2296421107/W2296421107_3.pdf",
+            "data/inputs/table_structure/cannot_tell/W2296421107/W2296421107_4.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2404866520",
+          "title": "PubTable: A Large-Scale Table Detection and Recognition Dataset",
+          "year": 2020,
+          "venue": "Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+          "doi": "10.1145/3394486.3403251",
+          "open_access": "open",
+          "type": "proceedings-article",
+          "total_compliance": 4.0,
+          "normalized_compliance": 0.5,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/table_structure/cannot_tell/W2404866520.pdf",
+          "input_pdfs": [
+            "data/inputs/table_structure/cannot_tell/W2404866520/W2404866520_0.pdf",
+            "data/inputs/table_structure/cannot_tell/W2404866520/W2404866520_1.pdf",
+            "data/inputs/table_structure/cannot_tell/W2404866520/W2404866520_2.pdf",
+            "data/inputs/table_structure/cannot_tell/W2404866520/W2404866520_3.pdf",
+            "data/inputs/table_structure/cannot_tell/W2404866520/W2404866520_4.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2810718311",
+          "title": "PubTabNet: Table Recognition in the Wild",
+          "year": 2020,
+          "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+          "doi": "10.18653/v1/2020.acl-main.609",
+          "open_access": "open",
+          "type": "proceedings-article",
+          "total_compliance": 4.0,
+          "normalized_compliance": 0.5,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/table_structure/cannot_tell/W2810718311.pdf",
+          "input_pdfs": [
+            "data/inputs/table_structure/cannot_tell/W2810718311/W2810718311_0.pdf",
+            "data/inputs/table_structure/cannot_tell/W2810718311/W2810718311_1.pdf",
+            "data/inputs/table_structure/cannot_tell/W2810718311/W2810718311_2.pdf",
+            "data/inputs/table_structure/cannot_tell/W2810718311/W2810718311_3.pdf",
+            "data/inputs/table_structure/cannot_tell/W2810718311/W2810718311_4.pdf",
+            "data/inputs/table_structure/cannot_tell/W2810718311/W2810718311_5.pdf",
+            "data/inputs/table_structure/cannot_tell/W2810718311/W2810718311_6.pdf",
+            "data/inputs/table_structure/cannot_tell/W2810718311/W2810718311_7.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2922538610",
+          "title": "The PubTabNet dataset: a table structure dataset for detecting and recognizing table structures in document images",
+          "year": 2020,
+          "venue": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+          "doi": "10.18653/v1/2020.emnlp-main.768",
+          "open_access": "open",
+          "type": "proceedings-article",
+          "total_compliance": 4.0,
+          "normalized_compliance": 0.5,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/table_structure/cannot_tell/W2922538610.pdf",
+          "input_pdfs": [
+            "data/inputs/table_structure/cannot_tell/W2922538610/W2922538610_0.pdf",
+            "data/inputs/table_structure/cannot_tell/W2922538610/W2922538610_1.pdf",
+            "data/inputs/table_structure/cannot_tell/W2922538610/W2922538610_2.pdf",
+            "data/inputs/table_structure/cannot_tell/W2922538610/W2922538610_3.pdf",
+            "data/inputs/table_structure/cannot_tell/W2922538610/W2922538610_4.pdf"
+          ]
+        }
+      ],
+      "failed": [
+        {
+          "openalex_id": "W1974692547",
+          "title": "ATACC: Accessible Textbooks Across an Academic Curriculum",
+          "year": 2018,
+          "venue": "Proceedings of the 20th International ACM SIGACCESS Conference on Computers and Accessibility",
+          "doi": "10.1145/3234695.3236289",
+          
+          "type": "proceedings-article",
+          "total_compliance": 3.0,
+          "normalized_compliance": 0.375,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/table_structure/failed/W1974692547.pdf",
+          "input_pdfs": [
+            "data/inputs/table_structure/failed/W1974692547/W1974692547_0.pdf",
+            "data/inputs/table_structure/failed/W1974692547/W1974692547_1.pdf",
+            "data/inputs/table_structure/failed/W1974692547/W1974692547_2.pdf",
+            "data/inputs/table_structure/failed/W1974692547/W1974692547_3.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2296421107",
+          "title": "DOC: A Page Object Dataset for Visual Document Understanding",
+          "year": 2020,
+          "venue": "European Conference on Computer Vision (ECCV)",
+          "doi": "10.1109/CVPR42703.2020.00140",
+          "open_access": "open",
+          "type": "proceedings-article",
+          "total_compliance": 3.0,
+          "normalized_compliance": 0.375,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/table_structure/failed/W2296421107.pdf",
+          "input_pdfs": [
+            "data/inputs/table_structure/failed/W2296421107/W2296421107_0.pdf",
+            "data/inputs/table_structure/failed/W2296421107/W2296421107_1.pdf",
+            "data/inputs/table_structure/failed/W2296421107/W2296421107_2.pdf",
+            "data/inputs/table_structure/failed/W2296421107/W2296421107_3.pdf",
+            "data/inputs/table_structure/failed/W2296421107/W2296421107_4.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2404866520",
+          "title": "PubTable: A Large-Scale Table Detection and Recognition Dataset",
+          "year": 2020,
+          "venue": "Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+          "doi": "10.1145/3394486.3403251",
+          "open_access": "open",
+          "type": "proceedings-article",
+          "total_compliance": 3.0,
+          "normalized_compliance": 0.375,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/table_structure/failed/W2404866520.pdf",
+          "input_pdfs": [
+            "data/inputs/table_structure/failed/W2404866520/W2404866520_0.pdf",
+            "data/inputs/table_structure/failed/W2404866520/W2404866520_1.pdf",
+            "data/inputs/table_structure/failed/W2404866520/W2404866520_2.pdf",
+            "data/inputs/table_structure/failed/W2404866520/W2404866520_3.pdf",
+            "data/inputs/table_structure/failed/W2404866520/W2404866520_4.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2810718311",
+          "title": "PubTabNet: Table Recognition in the Wild",
+          "year": 2020,
+          "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+          "doi": "10.18653/v1/2020.acl-main.609",
+          "open_access": "open",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/table_structure/failed/W2810718311.pdf",
+          "input_pdfs": [
+            "data/inputs/table_structure/failed/W2810718311/W2810718311_0.pdf",
+            "data/inputs/table_structure/failed/W2810718311/W2810718311_1.pdf",
+            "data/inputs/table_structure/failed/W2810718311/W2810718311_2.pdf",
+            "data/inputs/table_structure/failed/W2810718311/W2810718311_3.pdf",
+            "data/inputs/table_structure/failed/W2810718311/W2810718311_4.pdf",
+            "data/inputs/table_structure/failed/W2810718311/W2810718311_5.pdf",
+            "data/inputs/table_structure/failed/W2810718311/W2810718311_6.pdf",
+            "data/inputs/table_structure/failed/W2810718311/W2810718311_7.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2922538610",
+          "title": "The PubTabNet dataset: a table structure dataset for detecting and recognizing table structures in document images",
+          "year": 2020,
+          "venue": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+          "doi": "10.18653/v1/2020.emnlp-main.768",
+          "open_access": "open",
+          "type": "proceedings-article",
+          "total_compliance": 3.0,
+          "normalized_compliance": 0.375,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/table_structure/failed/W2922538610.pdf",
+          "input_pdfs": [
+            "data/inputs/table_structure/failed/W2922538610/W2922538610_0.pdf",
+            "data/inputs/table_structure/failed/W2922538610/W2922538610_1.pdf",
+            "data/inputs/table_structure/failed/W2922538610/W2922538610_2.pdf",
+            "data/inputs/table_structure/failed/W2922538610/W2922538610_3.pdf",
+            "data/inputs/table_structure/failed/W2922538610/W2922538610_4.pdf"
+          ]
+        }
+      ],
+      "not_present": [
+        {
+          "openalex_id": "W1974692547",
+          "title": "ATACC: Accessible Textbooks Across an Academic Curriculum",
+          "year": 2018,
+          "venue": "Proceedings of the 20th International ACM SIGACCESS Conference on Computers and Accessibility",
+          "doi": "10.1145/3234695.3236289",
+          
+          "type": "proceedings-article",
+          "total_compliance": 3.0,
+          "normalized_compliance": 0.375,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/table_structure/not_present/W1974692547.pdf",
+          "input_pdfs": [
+            "data/inputs/table_structure/not_present/W1974692547/W1974692547_0.pdf",
+            "data/inputs/table_structure/not_present/W1974692547/W1974692547_1.pdf",
+            "data/inputs/table_structure/not_present/W1974692547/W1974692547_2.pdf",
+            "data/inputs/table_structure/not_present/W1974692547/W1974692547_3.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2296421107",
+          "title": "DOC: A Page Object Dataset for Visual Document Understanding",
+          "year": 2020,
+          "venue": "European Conference on Computer Vision (ECCV)",
+          "doi": "10.1145/3377811.3380387",
+          "open_access": "open",
+          "type": "proceedings-article",
+          "total_compliance": 3.0,
+          "normalized_compliance": 0.375,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/table_structure/not_present/W2296421107.pdf",
+          "input_pdfs": [
+            "data/inputs/table_structure/not_present/W2296421107/W2296421107_0.pdf",
+            "data/inputs/table_structure/not_present/W2296421107/W2296421107_1.pdf",
+            "data/inputs/table_structure/not_present/W2296421107/W2296421107_2.pdf",
+            "data/inputs/table_structure/not_present/W2296421107/W2296421107_3.pdf",
+            "data/inputs/table_structure/not_present/W2296421107/W2296421107_4.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2404866520",
+          "title": "PubTable: A Large-Scale Table Detection and Recognition Dataset",
+          "year": 2020,
+          "venue": "Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+          "doi": "10.1145/3394486.3403251",
+          "open_access": "open",
+          "type": "proceedings-article",
+          "total_compliance": 3.0,
+          "normalized_compliance": 0.375,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/table_structure/not_present/W2404866520.pdf",
+          "input_pdfs": [
+            "data/inputs/table_structure/not_present/W2404866520/W2404866520_0.pdf",
+            "data/inputs/table_structure/not_present/W2404866520/W2404866520_1.pdf",
+            "data/inputs/table_structure/not_present/W2404866520/W2404866520_2.pdf",
+            "data/inputs/table_structure/not_present/W2404866520/W2404866520_3.pdf",
+            "data/inputs/table_structure/not_present/W2404866520/W2404866520_4.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2810718311",
+          "title": "PubTabNet: Table Recognition in the Wild",
+          "year": 2020,
+          "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+          "doi": "10.18653/v1/2020.acl-main.609",
+          "open_access": "open",
+          "type": "proceedings-article",
+          "total_compliance": 3.0,
+          "normalized_compliance": 0.375,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/table_structure/not_present/W2810718311.pdf",
+          "input_pdfs": [
+            "data/inputs/table_structure/not_present/W2810718311/W2810718311_0.pdf",
+            "data/inputs/table_structure/not_present/W2810718311/W2810718311_1.pdf",
+            "data/inputs/table_structure/not_present/W2810718311/W2810718311_2.pdf",
+            "data/inputs/table_structure/not_present/W2810718311/W2810718311_3.pdf",
+            "data/inputs/table_structure/not_present/W2810718311/W2810718311_4.pdf",
+            "data/inputs/table_structure/not_present/W2810718311/W2810718311_5.pdf",
+            "data/inputs/table_structure/not_present/W2810718311/W2810718311_6.pdf",
+            "data/inputs/table_structure/not_present/W2810718311/W2810718311_7.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2922538610",
+          "title": "The PubTabNet dataset: a table structure dataset for detecting and recognizing table structures in document images",
+          "year": 2020,
+          "venue": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+          "doi": "10.18653/v1/2020.emnlp-main.768",
+          "open_access": "open",
+          "type": "proceedings-article",
+          "total_compliance": 3.0,
+          "normalized_compliance": 0.375,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/table_structure/not_present/W2922538610.pdf",
+          "input_pdfs": [
+            "data/inputs/table_structure/not_present/W2922538610/W2922538610_0.pdf",
+            "data/inputs/table_structure/not_present/W2922538610/W2922538610_1.pdf",
+            "data/inputs/table_structure/not_present/W2922538610/W2922538610_2.pdf",
+            "data/inputs/table_structure/not_present/W2922538610/W2922538610_3.pdf",
+            "data/inputs/table_structure/not_present/W2922538610/W2922538610_4.pdf"
+          ]
+        }
+      ],
+      "passed": [
+        {
+          "openalex_id": "W1974692547",
+          "title": "ATACC: Accessible Textbooks Across an Academic Curriculum",
+          "year": 2018,
+          "venue": "Proceedings of the 20th International ACM SIGACCESS Conference on Computers and Accessibility",
+          "doi": "10.1145/3234695.3236289",
+          
+          "type": "proceedings-article",
+          "total_compliance": 4.0,
+          "normalized_compliance": 0.5,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/table_structure/passed/W1974692547.pdf",
+          "input_pdfs": [
+            "data/inputs/table_structure/passed/W1974692547/W1974692547_0.pdf",
+            "data/inputs/table_structure/passed/W1974692547/W1974692547_1.pdf",
+            "data/inputs/table_structure/passed/W1974692547/W1974692547_2.pdf",
+            "data/inputs/table_structure/passed/W1974692547/W1974692547_3.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2296421107",
+          "title": "DOC: A Page Object Dataset for Visual Document Understanding",
+          "year": 2020,
+          "venue": "European Conference on Computer Vision (ECCV)",
+          "doi": "10.1145/3377811.3380387",
+          "open_access": "open",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/table_structure/passed/W2296421107.pdf",
+          "input_pdfs": [
+            "data/inputs/table_structure/passed/W2296421107/W2296421107_0.pdf",
+            "data/inputs/table_structure/passed/W2296421107/W2296421107_1.pdf",
+            "data/inputs/table_structure/passed/W2296421107/W2296421107_2.pdf",
+            "data/inputs/table_structure/passed/W2296421107/W2296421107_3.pdf",
+            "data/inputs/table_structure/passed/W2296421107/W2296421107_4.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2404866520",
+          "title": "PubTable: A Large-Scale Table Detection and Recognition Dataset",
+          "year": 2020,
+          "venue": "Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+          "doi": "10.1145/3394486.3403251",
+          "open_access": "open",
+          "type": "proceedings-article",
+          "total_compliance": 4.0,
+          "normalized_compliance": 0.5,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/table_structure/passed/W2404866520.pdf",
+          "input_pdfs": [
+            "data/inputs/table_structure/passed/W2404866520/W2404866520_0.pdf",
+            "data/inputs/table_structure/passed/W2404866520/W2404866520_1.pdf",
+            "data/inputs/table_structure/passed/W2404866520/W2404866520_2.pdf",
+            "data/inputs/table_structure/passed/W2404866520/W2404866520_3.pdf",
+            "data/inputs/table_structure/passed/W2404866520/W2404866520_4.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2810718311",
+          "title": "PubTabNet: Table Recognition in the Wild",
+          "year": 2020,
+          "venue": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+          "doi": "10.18653/v1/2020.acl-main.609",
+          "open_access": "open",
+          "type": "proceedings-article",
+          "total_compliance": 4.0,
+          "normalized_compliance": 0.5,
+          "adobe6_compliance": false,
+          "pdf_path": "data/processed/table_structure/passed/W2810718311.pdf",
+          "input_pdfs": [
+            "data/inputs/table_structure/passed/W2810718311/W2810718311_0.pdf",
+            "data/inputs/table_structure/passed/W2810718311/W2810718311_1.pdf",
+            "data/inputs/table_structure/passed/W2810718311/W2810718311_2.pdf",
+            "data/inputs/table_structure/passed/W2810718311/W2810718311_3.pdf",
+            "data/inputs/table_structure/passed/W2810718311/W2810718311_4.pdf",
+            "data/inputs/table_structure/passed/W2810718311/W2810718311_5.pdf",
+            "data/inputs/table_structure/passed/W2810718311/W2810718311_6.pdf",
+            "data/inputs/table_structure/passed/W2810718311/W2810718311_7.pdf"
+          ]
+        },
+        {
+          "openalex_id": "W2922538610",
+          "title": "The PubTabNet dataset: a table structure dataset for detecting and recognizing table structures in document images",
+          "year": 2020,
+          "venue": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+          "doi": "10.18653/v1/2020.emnlp-main.768",
+          "open_access": "open",
+          "type": "proceedings-article",
+          "pdf_path": "data/processed/table_structure/passed/W2922538610.pdf",
+          "input_pdfs": [
+            "data/inputs/table_structure/passed/W2922538610/W2922538610_0.pdf",
+            "data/inputs/table_structure/passed/W2922538610/W2922538610_1.pdf",
+            "data/inputs/table_structure/passed/W2922538610/W2922538610_2.pdf",
+            "data/inputs/table_structure/passed/W2922538610/W2922538610_3.pdf",
+            "data/inputs/table_structure/passed/W2922538610/W2922538610_4.pdf"
+          ]
+        }
+      ]
+    }
+  }
+}
+
