@@ -49,15 +49,7 @@ load_dotenv(
 # MARIS MODULES
 # ============================================================
 
-import crawler
-import pdf_analyzer
-import family_detector
-import document_context
-import triage_engine
 import storage_manager
-
-import ai_document_understanding
-import ai_triage_advisor
 
 
 # ============================================================
@@ -158,6 +150,10 @@ def get_job_run_paths(
 def build_final_results(
     job,
 ):
+
+    # Lazy import: avoids loading ML / embedding dependencies
+    # before Uvicorn binds to Render's PORT.
+    import ai_triage_advisor
 
     """
     Combine:
@@ -496,6 +492,17 @@ def run_scan_pipeline(
     url,
     stop_event,
 ):
+
+    # Lazy-load heavy PDF / ML / AI modules only when a scan begins.
+    # This keeps application startup fast enough for Render to detect
+    # the listening port before its deployment timeout.
+    import crawler
+    import pdf_analyzer
+    import family_detector
+    import document_context
+    import triage_engine
+    import ai_document_understanding
+    import ai_triage_advisor
 
     job = get_job(
         job_id
