@@ -151,8 +151,9 @@ def build_final_results(
     job,
 ):
 
-    # Lazy import: avoids loading ML / embedding dependencies
-    # before Uvicorn binds to Render's PORT.
+    # Lazy-load the RAG module only when final results are assembled.
+    # This keeps Render startup fast and avoids loading the ML stack
+    # before it is actually needed.
     import ai_triage_advisor
 
     """
@@ -493,16 +494,24 @@ def run_scan_pipeline(
     stop_event,
 ):
 
-    # Lazy-load heavy PDF / ML / AI modules only when a scan begins.
-    # This keeps application startup fast enough for Render to detect
-    # the listening port before its deployment timeout.
+    # Immediately mark the job as active so the UI does not remain
+    # stuck at "queued" while modules initialize on Render.
+    update_job(
+        job_id,
+        status="running",
+        stage="starting",
+        stage_label="Starting scan engine",
+        progress=1,
+        current_document="",
+    )
+
+    # Load only the core scan modules first.
+    # AI / RAG modules are intentionally delayed until later stages.
     import crawler
     import pdf_analyzer
     import family_detector
     import document_context
     import triage_engine
-    import ai_document_understanding
-    import ai_triage_advisor
 
     job = get_job(
         job_id
@@ -981,6 +990,9 @@ def run_scan_pipeline(
         # This function already checks the permanent cache.
         #
         # Cached PDFs do not require a new paid call.
+        # Load AI document understanding only when this stage begins.
+        import ai_document_understanding
+
         ai_document_understanding.run(
             confirm_cost=False
         )
@@ -1020,6 +1032,9 @@ def run_scan_pipeline(
         # structural analysis, and the initial rule result.
         #
         # Cached final decisions are reused automatically.
+        # Load the heavier RAG / embedding stack only when this stage begins.
+        import ai_triage_advisor
+
         ai_triage_advisor.run(
             confirm_cost=False
         )
